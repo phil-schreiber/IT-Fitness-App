@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"    
+    android:background="#ffffff" >
+
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    <TextView
+    	android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+		android:id="@+id/topicTitle"                   
+        android:textColor="#fff"
+        android:background="#fe892a"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/topicTitle"
+    	    >    	        	    
+    	</TextView>
+    	<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"    
+    android:background="#ffffff" >
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"   
+    android:gravity="top"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    
+    <LinearLayout
+        android:id="@+id/gamesButtons"    
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#ffffff" ></LinearLayout>
+    
+            <Button
+        android:id="@+id/ButtonUpdate"        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"               
+        android:minHeight="50dp"
+        android:onClick="doUpdate"
+        android:text="@string/update"
+         />
+    
+    
+     
+    
+    </LinearLayout>
+</ScrollView>
+	</LinearLayout>
+ </LinearLayout>

@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top"
+    android:orientation="vertical"    
+    tools:context=".EndGame"
+    android:background="#ffffff" >    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top" 
+		android:orientation="vertical"
+    >
+    <TextView
+        android:orientation="vertical"
+    	android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"    
+        android:textColor="#fff"
+        android:background="#fe892a"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/statisticsTitle"
+        android:text="@string/statisticsTitle"
+    	    >    	        	    
+    	</TextView>
+    	</LinearLayout>
+    	<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:orientation="vertical"    
+    android:background="#ffffff" >
+    	    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" 		
+		android:id="@+id/statisticsWrap"
+    >
+    	        
+    	    </LinearLayout>
+    	</ScrollView>
+		    	
+</LinearLayout>

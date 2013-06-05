@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:gravity="top"
+    android:orientation="vertical"    
+    tools:context=".RunGame"
+    android:background="#ffffff" 
+    android:id="@+id/mainWrapper">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+            >
+            <LinearLayout
+            	android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:orientation="vertical"
+        		android:layout_marginTop="10dp" 
+            	android:id="@+id/qcontainer"><include layout="@layout/question" />
+            
+            </LinearLayout>
+            
+            		
+            			
+	</LinearLayout>
+
+ 
+ </LinearLayout>
+ 

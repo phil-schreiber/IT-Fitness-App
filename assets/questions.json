@@ -1,0 +1,5369 @@
+﻿{
+    "questions": {
+        "0": {
+            "1": {
+                "qid": "1",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Der Deming-Zyklus besteht aus den Phasen",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "1",
+                "answers": {
+                    "1": {
+                        "aid": "1",
+                        "aparentid": "1",
+                        "atext": "Plan - Do - Check - Act",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "1": {
+            "1": {
+                "qid": "1",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Der Deming-Zyklus besteht aus den Phasen",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "1",
+                "answers": {
+                    "2": {
+                        "aid": "2",
+                        "aparentid": "1",
+                        "atext": "Analyse - Measure - Develop - React",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "2": {
+            "1": {
+                "qid": "1",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Der Deming-Zyklus besteht aus den Phasen",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "1",
+                "answers": {
+                    "3": {
+                        "aid": "3",
+                        "aparentid": "1",
+                        "atext": "Initiate - Plan - Do - Close",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "3": {
+            "2": {
+                "qid": "2",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Ziel des Prozessbenchmarking ist es",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "2",
+                "answers": {
+                    "4": {
+                        "aid": "4",
+                        "aparentid": "2",
+                        "atext": "fundierte und wiederholbare Vergleiche mit anderen Unternehmen, die verschiedenartige Aufgabenstellungen und Kundenanforderungen aufweisen, zu ermöglichen, um konkrete Aussagen über Verbesserungspotenziale zu erhalten.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "4": {
+            "2": {
+                "qid": "2",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Ziel des Prozessbenchmarking ist es",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "2",
+                "answers": {
+                    "5": {
+                        "aid": "5",
+                        "aparentid": "2",
+                        "atext": "fundierte und wiederholbare Vergleiche mit anderen Unternehmen, die ähnliche Aufgabenstellungen und Kundenanforderungen aufweisen, zu ermöglichen, um konkrete Aussagen über Verbesserungspotenziale zu erhalten.",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "5": {
+            "2": {
+                "qid": "2",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Ziel des Prozessbenchmarking ist es",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "2",
+                "answers": {
+                    "6": {
+                        "aid": "6",
+                        "aparentid": "2",
+                        "atext": "fundierte und wiederholbare Vergleiche mit anderen Unternehmen, die ähnliche Aufgabenstellungen und Kundenanforderungen aufweisen, zu ermöglichen, um konkrete Aussagen über Qualitätsunterschiede zu erhalten.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "6": {
+            "3": {
+                "qid": "3",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Key Goal Indicators (KGI)",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "3",
+                "answers": {
+                    "7": {
+                        "aid": "7",
+                        "aparentid": "3",
+                        "atext": "legen Messgrößen fest, die dem Management - danach - aufzeigen, ob ein IT-Prozess die Unternehmenserfordernisse erfüllt hat.",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "7": {
+            "3": {
+                "qid": "3",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Key Goal Indicators (KGI)",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "3",
+                "answers": {
+                    "8": {
+                        "aid": "8",
+                        "aparentid": "3",
+                        "atext": "definieren Messgrößen, die bestimmen, wie gut die Performance von IT-Prozessen hinsichtlich der Unterstützung der Zielerreichung liegt.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "8": {
+            "3": {
+                "qid": "3",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Key Goal Indicators (KGI)",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "3",
+                "answers": {
+                    "9": {
+                        "aid": "9",
+                        "aparentid": "3",
+                        "atext": "stellen Messgrößen dar, die dem Management - danach - aufzeigen, ob die richtigen Ziele verfolgt wurden.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "9": {
+            "4": {
+                "qid": "4",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Die Effektivität eines Prozesses",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "4",
+                "answers": {
+                    "10": {
+                        "aid": "10",
+                        "aparentid": "4",
+                        "atext": "umfasst die Erreichung der Prozessziele mit möglichst geringem Aufwand und Kosten.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "10": {
+            "4": {
+                "qid": "4",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Die Effektivität eines Prozesses",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "4",
+                "answers": {
+                    "11": {
+                        "aid": "11",
+                        "aparentid": "4",
+                        "atext": "beschreibt die Fähigkeit eines Prozesses, die geforderte Qualität unabhängig vom Aufwand und der Erreichung der Prozessziele zu liefern.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "11": {
+            "4": {
+                "qid": "4",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Die Effektivität eines Prozesses",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "4",
+                "answers": {
+                    "12": {
+                        "aid": "12",
+                        "aparentid": "4",
+                        "atext": "beschreibt die zuverlässige Erreichung der Prozessziele.",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "12": {
+            "4": {
+                "qid": "4",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Die Effektivität eines Prozesses",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "4",
+                "answers": {
+                    "13": {
+                        "aid": "13",
+                        "aparentid": "4",
+                        "atext": "bedeutet die schnellstmögliche Bearbeitung eines Prozesses.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "13": {
+            "5": {
+                "qid": "5",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "99,9% richtig ausgeführte Arbeiten bedeuten",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "5",
+                "answers": {
+                    "14": {
+                        "aid": "14",
+                        "aparentid": "5",
+                        "atext": "ca. 6 Stunden\/Jahr ohne Wasser\/Gas\/Strom",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "14": {
+            "5": {
+                "qid": "5",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "99,9% richtig ausgeführte Arbeiten bedeuten",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "5",
+                "answers": {
+                    "15": {
+                        "aid": "15",
+                        "aparentid": "5",
+                        "atext": "ca. 12 Stunden\/Jahr ohne Wasser\/Gas\/Strom",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "15": {
+            "5": {
+                "qid": "5",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "99,9% richtig ausgeführte Arbeiten bedeuten",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "5",
+                "answers": {
+                    "16": {
+                        "aid": "16",
+                        "aparentid": "5",
+                        "atext": "ca. 9 Stunden\/Jahr ohne Wasser\/Gas\/Strom",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "16": {
+            "6": {
+                "qid": "6",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Welche der folgenden Begriffe sind Stufen der Qualitätsleiter?",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "6",
+                "answers": {
+                    "17": {
+                        "aid": "17",
+                        "aparentid": "6",
+                        "atext": "Entwickeln, Testen, Implementieren",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "17": {
+            "6": {
+                "qid": "6",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Welche der folgenden Begriffe sind Stufen der Qualitätsleiter?",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "6",
+                "answers": {
+                    "18": {
+                        "aid": "18",
+                        "aparentid": "6",
+                        "atext": "Abstreiten, Analysieren Vorbeugen",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "18": {
+            "6": {
+                "qid": "6",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Welche der folgenden Begriffe sind Stufen der Qualitätsleiter?",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "6",
+                "answers": {
+                    "19": {
+                        "aid": "19",
+                        "aparentid": "6",
+                        "atext": "Planen, Durchführen, Kontrollieren",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "19": {
+            "7": {
+                "qid": "7",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Welche der folgenden QM-Systeme bzw. -Methoden sind normativ?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "7",
+                "answers": {
+                    "20": {
+                        "aid": "20",
+                        "aparentid": "7",
+                        "atext": "Six Sigma",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "20": {
+            "7": {
+                "qid": "7",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Welche der folgenden QM-Systeme bzw. -Methoden sind normativ?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "7",
+                "answers": {
+                    "21": {
+                        "aid": "21",
+                        "aparentid": "7",
+                        "atext": "DIN EN ISO 9000ff",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "21": {
+            "7": {
+                "qid": "7",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Welche der folgenden QM-Systeme bzw. -Methoden sind normativ?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "7",
+                "answers": {
+                    "22": {
+                        "aid": "22",
+                        "aparentid": "7",
+                        "atext": "EFQM",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "22": {
+            "7": {
+                "qid": "7",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Welche der folgenden QM-Systeme bzw. -Methoden sind normativ?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "7",
+                "answers": {
+                    "23": {
+                        "aid": "23",
+                        "aparentid": "7",
+                        "atext": "ISO\/TS 16949:2002",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "23": {
+            "8": {
+                "qid": "8",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "CMM steht für",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "8",
+                "answers": {
+                    "24": {
+                        "aid": "24",
+                        "aparentid": "8",
+                        "atext": "Capability Maturity Model",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "24": {
+            "8": {
+                "qid": "8",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "CMM steht für",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "8",
+                "answers": {
+                    "25": {
+                        "aid": "25",
+                        "aparentid": "8",
+                        "atext": "Control Measures Model",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "25": {
+            "8": {
+                "qid": "8",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "CMM steht für",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "8",
+                "answers": {
+                    "26": {
+                        "aid": "26",
+                        "aparentid": "8",
+                        "atext": "Capacity Measurement Model",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "26": {
+            "9": {
+                "qid": "9",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Unter Qualitätsmanagement versteht man",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "9",
+                "answers": {
+                    "27": {
+                        "aid": "27",
+                        "aparentid": "9",
+                        "atext": "ein Managementteam, das den Anforderungen des IPM-Certificates genügt.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "27": {
+            "9": {
+                "qid": "9",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Unter Qualitätsmanagement versteht man",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "9",
+                "answers": {
+                    "28": {
+                        "aid": "28",
+                        "aparentid": "9",
+                        "atext": "alle organisierten Maßnahmen, die der Verbesserung von Produkten, Prozessen oder Leistungen jeglicher Art dienen.",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "28": {
+            "9": {
+                "qid": "9",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Unter Qualitätsmanagement versteht man",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "9",
+                "answers": {
+                    "29": {
+                        "aid": "29",
+                        "aparentid": "9",
+                        "atext": "das Feststellen, inwieweit eine Produktionseinheit die Qualitätsforderung erfüllt.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "29": {
+            "10": {
+                "qid": "10",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Das ITIL Process Maturity Model (PMM) ist",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "10",
+                "answers": {
+                    "30": {
+                        "aid": "30",
+                        "aparentid": "10",
+                        "atext": "vierstufig",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "30": {
+            "10": {
+                "qid": "10",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Das ITIL Process Maturity Model (PMM) ist",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "10",
+                "answers": {
+                    "31": {
+                        "aid": "31",
+                        "aparentid": "10",
+                        "atext": "fünfstufig",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "31": {
+            "10": {
+                "qid": "10",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Das ITIL Process Maturity Model (PMM) ist",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "10",
+                "answers": {
+                    "32": {
+                        "aid": "32",
+                        "aparentid": "10",
+                        "atext": "sechsstufig",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "32": {
+            "10": {
+                "qid": "10",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Das ITIL Process Maturity Model (PMM) ist",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "10",
+                "answers": {
+                    "33": {
+                        "aid": "33",
+                        "aparentid": "10",
+                        "atext": "achtstufig",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "33": {
+            "11": {
+                "qid": "11",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "KPI steht für",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "11",
+                "answers": {
+                    "34": {
+                        "aid": "34",
+                        "aparentid": "11",
+                        "atext": "Key Process Installation",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "34": {
+            "11": {
+                "qid": "11",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "KPI steht für",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "11",
+                "answers": {
+                    "35": {
+                        "aid": "35",
+                        "aparentid": "11",
+                        "atext": "Key Projekt Initiative",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "35": {
+            "11": {
+                "qid": "11",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "KPI steht für",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "11",
+                "answers": {
+                    "36": {
+                        "aid": "36",
+                        "aparentid": "11",
+                        "atext": "Key Performance Initiator",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "36": {
+            "11": {
+                "qid": "11",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "KPI steht für",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "11",
+                "answers": {
+                    "37": {
+                        "aid": "37",
+                        "aparentid": "11",
+                        "atext": "Key Performance Indicator",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "37": {
+            "12": {
+                "qid": "12",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Welche der aufgeführten Ziele sind Prozessziele des Capacity Managements?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "12",
+                "answers": {
+                    "38": {
+                        "aid": "38",
+                        "aparentid": "12",
+                        "atext": "Minimiere die Wahrscheinlichkeit einer IT-Service-Unterbrechung.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "38": {
+            "12": {
+                "qid": "12",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Welche der aufgeführten Ziele sind Prozessziele des Capacity Managements?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "12",
+                "answers": {
+                    "39": {
+                        "aid": "39",
+                        "aparentid": "12",
+                        "atext": "Minimiere die Ausfallszeit",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "39": {
+            "12": {
+                "qid": "12",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Welche der aufgeführten Ziele sind Prozessziele des Capacity Managements?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "12",
+                "answers": {
+                    "40": {
+                        "aid": "40",
+                        "aparentid": "12",
+                        "atext": "Optimiere die Auslastung der IT-Ressourcen",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "40": {
+            "12": {
+                "qid": "12",
+                "gameid": "1",
+                "topic": "IT Quality",
+                "qparentid": "1",
+                "qtext": "Welche der aufgeführten Ziele sind Prozessziele des Capacity Managements?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "12",
+                "answers": {
+                    "41": {
+                        "aid": "41",
+                        "aparentid": "12",
+                        "atext": "Optimiere IT-Infrastruktur, Ressourcen und Fähigkeiten",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "41": {
+            "13": {
+                "qid": "13",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Welches ist die richtige Reihenfolge der fünf Stufen des ITIL Process Maturity Model (PMM)?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "1",
+                "answers": {
+                    "42": {
+                        "aid": "42",
+                        "aparentid": "13",
+                        "atext": "initial - repeatable - defined - managed - optimizing",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "42": {
+            "13": {
+                "qid": "13",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Welches ist die richtige Reihenfolge der fünf Stufen des ITIL Process Maturity Model (PMM)?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "1",
+                "answers": {
+                    "43": {
+                        "aid": "43",
+                        "aparentid": "13",
+                        "atext": "initial - defined - managed - repeatable - optimizing",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "43": {
+            "13": {
+                "qid": "13",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Welches ist die richtige Reihenfolge der fünf Stufen des ITIL Process Maturity Model (PMM)?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "1",
+                "answers": {
+                    "44": {
+                        "aid": "44",
+                        "aparentid": "13",
+                        "atext": "initial - defined - repeatable - managed - optimizing",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "44": {
+            "13": {
+                "qid": "13",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Welches ist die richtige Reihenfolge der fünf Stufen des ITIL Process Maturity Model (PMM)?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "1",
+                "answers": {
+                    "45": {
+                        "aid": "45",
+                        "aparentid": "13",
+                        "atext": "defined - initial - managed - optimizing - repeatable",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "45": {
+            "14": {
+                "qid": "14",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Welche Auflistung stellt Unternehmensanforderungen an IT-Prozesse dar?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "2",
+                "answers": {
+                    "46": {
+                        "aid": "46",
+                        "aparentid": "14",
+                        "atext": "Durchführbarkeit, Messbarkeit, Vollständigkeit",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "46": {
+            "14": {
+                "qid": "14",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Welche Auflistung stellt Unternehmensanforderungen an IT-Prozesse dar?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "2",
+                "answers": {
+                    "47": {
+                        "aid": "47",
+                        "aparentid": "14",
+                        "atext": "Verfügbarkeit, Verlässlichkeit, Integrität",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "47": {
+            "14": {
+                "qid": "14",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Welche Auflistung stellt Unternehmensanforderungen an IT-Prozesse dar?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "2",
+                "answers": {
+                    "48": {
+                        "aid": "48",
+                        "aparentid": "14",
+                        "atext": "Objektivität, Relevanz, Umsetzbarkeit",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "48": {
+            "14": {
+                "qid": "14",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Welche Auflistung stellt Unternehmensanforderungen an IT-Prozesse dar?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "2",
+                "answers": {
+                    "49": {
+                        "aid": "49",
+                        "aparentid": "14",
+                        "atext": "Sicherheit, Sparsamkeit, Sorgfalt",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "49": {
+            "15": {
+                "qid": "15",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Wie heißen die vier Perspektiven eines Balanced Scorecard Systems?",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "3",
+                "answers": {
+                    "50": {
+                        "aid": "50",
+                        "aparentid": "15",
+                        "atext": "Kunden-, Mitarbeiter-, Finanz- und Prozessperspektive",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "50": {
+            "15": {
+                "qid": "15",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Wie heißen die vier Perspektiven eines Balanced Scorecard Systems?",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "3",
+                "answers": {
+                    "51": {
+                        "aid": "51",
+                        "aparentid": "15",
+                        "atext": "Lieferanten-, Mitarbeiter-, Personal- und Prozessperspektive",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "51": {
+            "15": {
+                "qid": "15",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Wie heißen die vier Perspektiven eines Balanced Scorecard Systems?",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "3",
+                "answers": {
+                    "52": {
+                        "aid": "52",
+                        "aparentid": "15",
+                        "atext": "Dienstleister-, Mitarbeiter-, Verwaltungs- und Prozessperspektive",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "52": {
+            "16": {
+                "qid": "16",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Was ist die englische Übersetzung von Qualitätsrichtlinie?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "4",
+                "answers": {
+                    "53": {
+                        "aid": "53",
+                        "aparentid": "16",
+                        "atext": "Quality Policy",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "53": {
+            "16": {
+                "qid": "16",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Was ist die englische Übersetzung von Qualitätsrichtlinie?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "4",
+                "answers": {
+                    "54": {
+                        "aid": "54",
+                        "aparentid": "16",
+                        "atext": "Quality Guideline",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "54": {
+            "16": {
+                "qid": "16",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Was ist die englische Übersetzung von Qualitätsrichtlinie?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "4",
+                "answers": {
+                    "55": {
+                        "aid": "55",
+                        "aparentid": "16",
+                        "atext": "Quality Rule",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "55": {
+            "16": {
+                "qid": "16",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Was ist die englische Übersetzung von Qualitätsrichtlinie?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "4",
+                "answers": {
+                    "56": {
+                        "aid": "56",
+                        "aparentid": "16",
+                        "atext": "Quality Principle",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "56": {
+            "17": {
+                "qid": "17",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Was sind Methoden und Hilfsmittel zur Sicherung von Prozessqualität?",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "5",
+                "answers": {
+                    "57": {
+                        "aid": "57",
+                        "aparentid": "17",
+                        "atext": "Quality-Gates, Schnittstellen-Harmonisierung, Prozesskettenmanager",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "57": {
+            "17": {
+                "qid": "17",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Was sind Methoden und Hilfsmittel zur Sicherung von Prozessqualität?",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "5",
+                "answers": {
+                    "58": {
+                        "aid": "58",
+                        "aparentid": "17",
+                        "atext": "Balanced Scorecard, EFQM-Modell, Reifegradmodelle",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "58": {
+            "17": {
+                "qid": "17",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Was sind Methoden und Hilfsmittel zur Sicherung von Prozessqualität?",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "5",
+                "answers": {
+                    "59": {
+                        "aid": "59",
+                        "aparentid": "17",
+                        "atext": "Theory of Constraints (TOC), Ishikawa Diagramm",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "59": {
+            "18": {
+                "qid": "18",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Qualitätszirkel sind",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "6",
+                "answers": {
+                    "60": {
+                        "aid": "60",
+                        "aparentid": "18",
+                        "atext": "Methoden zur Neuplanung und Verbesserung von sauberen, sicheren und standardisierten Arbeitsplätzen.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "60": {
+            "18": {
+                "qid": "18",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Qualitätszirkel sind",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "6",
+                "answers": {
+                    "61": {
+                        "aid": "61",
+                        "aparentid": "18",
+                        "atext": "Einrichtungen zur Beschreibung, Messung, Analyse, Verbesserung und Überwachung von Geschäftsvorgängen.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "61": {
+            "18": {
+                "qid": "18",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Qualitätszirkel sind",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "6",
+                "answers": {
+                    "62": {
+                        "aid": "62",
+                        "aparentid": "18",
+                        "atext": "ein Element des KVP und machen \"Betroffene\" zu \"Beteiligten\".",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "62": {
+            "18": {
+                "qid": "18",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Qualitätszirkel sind",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "6",
+                "answers": {
+                    "63": {
+                        "aid": "63",
+                        "aparentid": "18",
+                        "atext": "feste Einrichtungen in vielen Unternehmen, in denen die Mitarbeiter regelmäßig Verbesserungspotentiale aufspüren und Pläne zur Umsetzung machen.",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "63": {
+            "19": {
+                "qid": "19",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Im Qualitätsmanagement untersucht die Prozessfähigkeitsuntersuchung",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "7",
+                "answers": {
+                    "64": {
+                        "aid": "64",
+                        "aparentid": "19",
+                        "atext": "die Beziehungen zwischen einer abhängigen und einer oder mehreren unabhängigen Variablen.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "64": {
+            "19": {
+                "qid": "19",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Im Qualitätsmanagement untersucht die Prozessfähigkeitsuntersuchung",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "7",
+                "answers": {
+                    "65": {
+                        "aid": "65",
+                        "aparentid": "19",
+                        "atext": "mehrere statistische Variablen oder Zufallsvariablen zugleich.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "65": {
+            "19": {
+                "qid": "19",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Im Qualitätsmanagement untersucht die Prozessfähigkeitsuntersuchung",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "7",
+                "answers": {
+                    "66": {
+                        "aid": "66",
+                        "aparentid": "19",
+                        "atext": "das Verhältnis zwischen der Häufigkeitsverteilung eines messbaren Qualitätsmerkmals und der für dieses Merkmal vorgegebenen Toleranz.",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "66": {
+            "19": {
+                "qid": "19",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Im Qualitätsmanagement untersucht die Prozessfähigkeitsuntersuchung",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "7",
+                "answers": {
+                    "67": {
+                        "aid": "67",
+                        "aparentid": "19",
+                        "atext": "die Daten eines statistischen Merkmals darauf hin, ob ihnen eine bestimmte Wahrscheinlichkeitsverteilung zu Grunde liegt.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "67": {
+            "20": {
+                "qid": "20",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Total Quality Management steht für",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "8",
+                "answers": {
+                    "68": {
+                        "aid": "68",
+                        "aparentid": "20",
+                        "atext": "ein Managementkonzept, das die Qualität in den Mittelpunkt stellt und höchste Qualität in allen Bereichen anstrebt.",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "68": {
+            "20": {
+                "qid": "20",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Total Quality Management steht für",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "8",
+                "answers": {
+                    "69": {
+                        "aid": "69",
+                        "aparentid": "20",
+                        "atext": "einen Preis, der jährlich von der European Foundation for Quality Management für exzellente Unternehmen vergeben wird.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "69": {
+            "20": {
+                "qid": "20",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Total Quality Management steht für",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "8",
+                "answers": {
+                    "70": {
+                        "aid": "70",
+                        "aparentid": "20",
+                        "atext": "ein umfassendes Qualitätsmanagement.",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "70": {
+            "20": {
+                "qid": "20",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Total Quality Management steht für",
+                "qmode": "0",
+                "qanswers": "4",
+
+                "qsort": "8",
+                "answers": {
+                    "71": {
+                        "aid": "71",
+                        "aparentid": "20",
+                        "atext": "den Zweck, die Qualität als Systemziel einzuführen und dauerhaft zu garantieren.",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "71": {
+            "21": {
+                "qid": "21",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Eine GAP-Analyse wird verwendet,",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "9",
+                "answers": {
+                    "72": {
+                        "aid": "72",
+                        "aparentid": "21",
+                        "atext": "um den Abstand zwischen zwei Kennzahlenwerten zu bestimmen.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "72": {
+            "21": {
+                "qid": "21",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Eine GAP-Analyse wird verwendet,",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "9",
+                "answers": {
+                    "73": {
+                        "aid": "73",
+                        "aparentid": "21",
+                        "atext": "um den aktuellen Stand im Global Achievement Process (GAP) zu bestimmen.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "73": {
+            "21": {
+                "qid": "21",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Eine GAP-Analyse wird verwendet,",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "9",
+                "answers": {
+                    "74": {
+                        "aid": "74",
+                        "aparentid": "21",
+                        "atext": "um die Unterschiede zwischen verschiedenen Planungswerten hervorzuheben.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "74": {
+            "21": {
+                "qid": "21",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Eine GAP-Analyse wird verwendet,",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "9",
+                "answers": {
+                    "75": {
+                        "aid": "75",
+                        "aparentid": "21",
+                        "atext": "um die aktuelle Situation eines Unternehmens mit der gewünschten zukünftigen Situation zu vergleichen.",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "75": {
+            "22": {
+                "qid": "22",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Ziele sollten SMART sein. SMART steht für",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "10",
+                "answers": {
+                    "76": {
+                        "aid": "76",
+                        "aparentid": "22",
+                        "atext": "Specific, Measurable, Achievable, Realistic and Timely",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "76": {
+            "22": {
+                "qid": "22",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Ziele sollten SMART sein. SMART steht für",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "10",
+                "answers": {
+                    "77": {
+                        "aid": "77",
+                        "aparentid": "22",
+                        "atext": "Specific, Meaningful, Arrivable, Realistic and Timely",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "77": {
+            "22": {
+                "qid": "22",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Ziele sollten SMART sein. SMART steht für",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "10",
+                "answers": {
+                    "78": {
+                        "aid": "78",
+                        "aparentid": "22",
+                        "atext": "Specific, Measurable, Achievable, Reasonable and Totally",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "78": {
+            "22": {
+                "qid": "22",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Ziele sollten SMART sein. SMART steht für",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "10",
+                "answers": {
+                    "79": {
+                        "aid": "79",
+                        "aparentid": "22",
+                        "atext": "Scheduled, Measurable, Achievable, Rulebased and Timely",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "79": {
+            "23": {
+                "qid": "23",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Welches der folgenden Beispiel ist ein Key Goal Indicator (KGI) für das Aktivitätsziel Installation und Betrieb eines Service Desk?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "11",
+                "answers": {
+                    "80": {
+                        "aid": "80",
+                        "aparentid": "23",
+                        "atext": "Anzahl der pro Service Desk MitarbeiterIn pro Stunde bearbeiteten Anrufe",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "80": {
+            "23": {
+                "qid": "23",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Welches der folgenden Beispiel ist ein Key Goal Indicator (KGI) für das Aktivitätsziel Installation und Betrieb eines Service Desk?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "11",
+                "answers": {
+                    "81": {
+                        "aid": "81",
+                        "aparentid": "23",
+                        "atext": "Prozentsatz der erneut geöffneten Incidents",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "81": {
+            "23": {
+                "qid": "23",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Welches der folgenden Beispiel ist ein Key Goal Indicator (KGI) für das Aktivitätsziel Installation und Betrieb eines Service Desk?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "11",
+                "answers": {
+                    "82": {
+                        "aid": "82",
+                        "aparentid": "23",
+                        "atext": "Anzahl der Anrufe, die zu einer Eskalation führten",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "82": {
+            "23": {
+                "qid": "23",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Welches der folgenden Beispiel ist ein Key Goal Indicator (KGI) für das Aktivitätsziel Installation und Betrieb eines Service Desk?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "11",
+                "answers": {
+                    "83": {
+                        "aid": "83",
+                        "aparentid": "23",
+                        "atext": "Anzahl der Anrufe, die nicht zur Eröffnung eines Incidents geführt haben",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "83": {
+            "24": {
+                "qid": "24",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Die DIN EN ISO 9000 definiert Qualität als:",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "12",
+                "answers": {
+                    "84": {
+                        "aid": "84",
+                        "aparentid": "24",
+                        "atext": "Vermögen einer Gesamtheit inhärenter Merkmale eines Produkts, eines Systems oder eines Prozesses zur Erfüllung von Forderungen von Kunden und anderen interessierten Parteien.",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "84": {
+            "24": {
+                "qid": "24",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Die DIN EN ISO 9000 definiert Qualität als:",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "12",
+                "answers": {
+                    "85": {
+                        "aid": "85",
+                        "aparentid": "24",
+                        "atext": "Vermögen von einzelnen inhärenten Merkmalen eines Produkts, eines Systems oder eines Prozesses zur Erfüllung von Forderungen von Kunden und anderen interessierten Parteien.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "85": {
+            "24": {
+                "qid": "24",
+                "gameid": "2",
+                "topic": "IT Quality",
+                "qparentid": "2",
+                "qtext": "Die DIN EN ISO 9000 definiert Qualität als:",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "12",
+                "answers": {
+                    "86": {
+                        "aid": "86",
+                        "aparentid": "24",
+                        "atext": "Vermögen einer Gesamtheit inhärenter Merkmale eines Produkts, eines Systems oder eines Prozesses bezüglich ihrer Eignung, jegliche Erfordernisse zu erfüllen.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "86": {
+            "25": {
+                "qid": "25",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Unter Qualitätssicherung versteht man:",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "1",
+                "answers": {
+                    "87": {
+                        "aid": "87",
+                        "aparentid": "25",
+                        "atext": "die Gesamtheit aller organisatorischen und technischen Aktivitäten zur Sicherung der Qualität und Wirtschaftlichkeit.",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "87": {
+            "25": {
+                "qid": "25",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Unter Qualitätssicherung versteht man:",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "1",
+                "answers": {
+                    "88": {
+                        "aid": "88",
+                        "aparentid": "25",
+                        "atext": "alle Vorgaben und Maßnahmen zur Sicherung der Qualität.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "88": {
+            "25": {
+                "qid": "25",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Unter Qualitätssicherung versteht man:",
+                "qmode": "1",
+                "qanswers": "3",
+                "qsort": "1",
+                "answers": {
+                    "89": {
+                        "aid": "89",
+                        "aparentid": "25",
+                        "atext": "die risikobehaftete Bewahrung der Qualität.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "89": {
+            "26": {
+                "qid": "26",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "COBIT steht für",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "2",
+                "answers": {
+                    "90": {
+                        "aid": "90",
+                        "aparentid": "26",
+                        "atext": "Control Objectives for Information and related Technology",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "90": {
+            "26": {
+                "qid": "26",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "COBIT steht für",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "2",
+                "answers": {
+                    "91": {
+                        "aid": "91",
+                        "aparentid": "26",
+                        "atext": "Control Objectives for Incidents Tickets",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "91": {
+            "26": {
+                "qid": "26",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "COBIT steht für",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "2",
+                "answers": {
+                    "92": {
+                        "aid": "92",
+                        "aparentid": "26",
+                        "atext": "Customer Objectives for Internal Tickets",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "92": {
+            "26": {
+                "qid": "26",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "COBIT steht für",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "2",
+                "answers": {
+                    "93": {
+                        "aid": "93",
+                        "aparentid": "26",
+                        "atext": "Customer Objectives for Information Technology",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "93": {
+            "27": {
+                "qid": "27",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Die Abkürzung RACI steht für",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "3",
+                "answers": {
+                    "94": {
+                        "aid": "94",
+                        "aparentid": "27",
+                        "atext": "Reliable , Achievable, Consulted und Informed",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "94": {
+            "27": {
+                "qid": "27",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Die Abkürzung RACI steht für",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "3",
+                "answers": {
+                    "95": {
+                        "aid": "95",
+                        "aparentid": "27",
+                        "atext": "Responsible, Accountable, Conversible und Innovative.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "95": {
+            "27": {
+                "qid": "27",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Die Abkürzung RACI steht für",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "3",
+                "answers": {
+                    "96": {
+                        "aid": "96",
+                        "aparentid": "27",
+                        "atext": "Responsible, Accountable, Consulted und Informed.",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "96": {
+            "27": {
+                "qid": "27",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Die Abkürzung RACI steht für",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "3",
+                "answers": {
+                    "97": {
+                        "aid": "97",
+                        "aparentid": "27",
+                        "atext": "Reliable, Accountable, Consulted und International.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "97": {
+            "28": {
+                "qid": "28",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Welcher der folgenden Gründe kann zu einem Anstieg der Anrufzahlen im Help Desk führen?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "4",
+                "answers": {
+                    "98": {
+                        "aid": "98",
+                        "aparentid": "28",
+                        "atext": "ein schlechter Help Desk - schlechter Service",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "98": {
+            "28": {
+                "qid": "28",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Welcher der folgenden Gründe kann zu einem Anstieg der Anrufzahlen im Help Desk führen?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "4",
+                "answers": {
+                    "99": {
+                        "aid": "99",
+                        "aparentid": "28",
+                        "atext": "ein guter Help Desk - guter Service",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "99": {
+            "28": {
+                "qid": "28",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Welcher der folgenden Gründe kann zu einem Anstieg der Anrufzahlen im Help Desk führen?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "4",
+                "answers": {
+                    "100": {
+                        "aid": "100",
+                        "aparentid": "28",
+                        "atext": "eine Softwareänderung",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "100": {
+            "28": {
+                "qid": "28",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Welcher der folgenden Gründe kann zu einem Anstieg der Anrufzahlen im Help Desk führen?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "4",
+                "answers": {
+                    "101": {
+                        "aid": "101",
+                        "aparentid": "28",
+                        "atext": "neue Mitarbeiter\/-innen im Unternehmen",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "101": {
+            "29": {
+                "qid": "29",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Welche der folgenden Abkürzungen stellen Kennzahlen des Verfügbarkeitsmanagements (Availability Management) dar?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "5",
+                "answers": {
+                    "102": {
+                        "aid": "102",
+                        "aparentid": "29",
+                        "atext": "MTBSI",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "102": {
+            "29": {
+                "qid": "29",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Welche der folgenden Abkürzungen stellen Kennzahlen des Verfügbarkeitsmanagements (Availability Management) dar?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "5",
+                "answers": {
+                    "103": {
+                        "aid": "103",
+                        "aparentid": "29",
+                        "atext": "MTTS",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "103": {
+            "29": {
+                "qid": "29",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Welche der folgenden Abkürzungen stellen Kennzahlen des Verfügbarkeitsmanagements (Availability Management) dar?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "5",
+                "answers": {
+                    "104": {
+                        "aid": "104",
+                        "aparentid": "29",
+                        "atext": "MTBP",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "104": {
+            "29": {
+                "qid": "29",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Welche der folgenden Abkürzungen stellen Kennzahlen des Verfügbarkeitsmanagements (Availability Management) dar?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "5",
+                "answers": {
+                    "105": {
+                        "aid": "105",
+                        "aparentid": "29",
+                        "atext": "MTRS",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "105": {
+            "30": {
+                "qid": "30",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Was ist die erste Stufe\/Phase des 7-Stufen-CSI-Verbesserungsprozesses?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "6",
+                "answers": {
+                    "106": {
+                        "aid": "106",
+                        "aparentid": "30",
+                        "atext": "Definition: ?Was soll gemessen werden??",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "106": {
+            "30": {
+                "qid": "30",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Was ist die erste Stufe\/Phase des 7-Stufen-CSI-Verbesserungsprozesses?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "6",
+                "answers": {
+                    "107": {
+                        "aid": "107",
+                        "aparentid": "30",
+                        "atext": "Sammeln der Daten",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "107": {
+            "30": {
+                "qid": "30",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Was ist die erste Stufe\/Phase des 7-Stufen-CSI-Verbesserungsprozesses?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "6",
+                "answers": {
+                    "108": {
+                        "aid": "108",
+                        "aparentid": "30",
+                        "atext": "Identifizieren der Geschäftsstrategie",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "108": {
+            "30": {
+                "qid": "30",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Was ist die erste Stufe\/Phase des 7-Stufen-CSI-Verbesserungsprozesses?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "6",
+                "answers": {
+                    "109": {
+                        "aid": "109",
+                        "aparentid": "30",
+                        "atext": "Analyse der Daten",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "109": {
+            "31": {
+                "qid": "31",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Die Abkürzung OLA steht für",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "7",
+                "answers": {
+                    "110": {
+                        "aid": "110",
+                        "aparentid": "31",
+                        "atext": "Organisational Level Agreement",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "110": {
+            "31": {
+                "qid": "31",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Die Abkürzung OLA steht für",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "7",
+                "answers": {
+                    "111": {
+                        "aid": "111",
+                        "aparentid": "31",
+                        "atext": "Operational Level Agreement",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "111": {
+            "31": {
+                "qid": "31",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Die Abkürzung OLA steht für",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "7",
+                "answers": {
+                    "112": {
+                        "aid": "112",
+                        "aparentid": "31",
+                        "atext": "Optimizational Level Agreement",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "112": {
+            "31": {
+                "qid": "31",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Die Abkürzung OLA steht für",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "7",
+                "answers": {
+                    "113": {
+                        "aid": "113",
+                        "aparentid": "31",
+                        "atext": "Outsourcing Level Agreement",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "113": {
+            "32": {
+                "qid": "32",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Welche Maßnahmen sind notwendig, um die Compliance der IT-Prozesse sicherzustellen?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "8",
+                "answers": {
+                    "114": {
+                        "aid": "114",
+                        "aparentid": "32",
+                        "atext": "Identifikation von gesetzlichen und regulatorischen Anforderungen in Bezug auf die IT",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "114": {
+            "32": {
+                "qid": "32",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Welche Maßnahmen sind notwendig, um die Compliance der IT-Prozesse sicherzustellen?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "8",
+                "answers": {
+                    "115": {
+                        "aid": "115",
+                        "aparentid": "32",
+                        "atext": "Berichterstattung über Control-Abweichungen an das Management zur Behandlung",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "115": {
+            "32": {
+                "qid": "32",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Welche Maßnahmen sind notwendig, um die Compliance der IT-Prozesse sicherzustellen?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "8",
+                "answers": {
+                    "116": {
+                        "aid": "116",
+                        "aparentid": "32",
+                        "atext": "Überwachung und Berichterstattung über die Einhaltung von regulatorischen Anforderungen",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "116": {
+            "32": {
+                "qid": "32",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Welche Maßnahmen sind notwendig, um die Compliance der IT-Prozesse sicherzustellen?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "8",
+                "answers": {
+                    "117": {
+                        "aid": "117",
+                        "aparentid": "32",
+                        "atext": "Erstellung eines in die Corporate Governance integrierten IT-Governance Frameworks",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "117": {
+            "33": {
+                "qid": "33",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Welche der folgenden sind Kennzahlen des Change Managements",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "9",
+                "answers": {
+                    "118": {
+                        "aid": "118",
+                        "aparentid": "33",
+                        "atext": "Anzahl der durch neue Releases verursachten Incidents",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "118": {
+            "33": {
+                "qid": "33",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Welche der folgenden sind Kennzahlen des Change Managements",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "9",
+                "answers": {
+                    "119": {
+                        "aid": "119",
+                        "aparentid": "33",
+                        "atext": "Anzahl zurückgerollter Releases",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "119": {
+            "33": {
+                "qid": "33",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Welche der folgenden sind Kennzahlen des Change Managements",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "9",
+                "answers": {
+                    "120": {
+                        "aid": "120",
+                        "aparentid": "33",
+                        "atext": "Zeitbedarf für Change-Freigabe\/ Ablehnung ",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "120": {
+            "33": {
+                "qid": "33",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Welche der folgenden sind Kennzahlen des Change Managements",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "9",
+                "answers": {
+                    "121": {
+                        "aid": "121",
+                        "aparentid": "33",
+                        "atext": "Anzahl Notfall-Changes",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "121": {
+            "34": {
+                "qid": "34",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Welche der folgenden Anforderungen passen auf IT-Prozesskennzahlen?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "10",
+                "answers": {
+                    "122": {
+                        "aid": "122",
+                        "aparentid": "34",
+                        "atext": "sicher",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "122": {
+            "34": {
+                "qid": "34",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Welche der folgenden Anforderungen passen auf IT-Prozesskennzahlen?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "10",
+                "answers": {
+                    "123": {
+                        "aid": "123",
+                        "aparentid": "34",
+                        "atext": "konsistent",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "123": {
+            "34": {
+                "qid": "34",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Welche der folgenden Anforderungen passen auf IT-Prozesskennzahlen?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "10",
+                "answers": {
+                    "124": {
+                        "aid": "124",
+                        "aparentid": "34",
+                        "atext": "modern",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "124": {
+            "34": {
+                "qid": "34",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Welche der folgenden Anforderungen passen auf IT-Prozesskennzahlen?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "10",
+                "answers": {
+                    "125": {
+                        "aid": "125",
+                        "aparentid": "34",
+                        "atext": "verständlich",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "125": {
+            "34": {
+                "qid": "34",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Welche der folgenden Anforderungen passen auf IT-Prozesskennzahlen?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "10",
+                "answers": {
+                    "126": {
+                        "aid": "126",
+                        "aparentid": "34",
+                        "atext": "smart",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "126": {
+            "35": {
+                "qid": "35",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Wie ist das Informationskriterium Integrität definiert?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "11",
+                "answers": {
+                    "127": {
+                        "aid": "127",
+                        "aparentid": "35",
+                        "atext": "Die Richtigkeit und Vollständigkeit von Informationen sowie deren Gültigkeit in Übereinstimmung mit Unternehmenswerten und Erwartungen.",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "127": {
+            "35": {
+                "qid": "35",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Wie ist das Informationskriterium Integrität definiert?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "11",
+                "answers": {
+                    "128": {
+                        "aid": "128",
+                        "aparentid": "35",
+                        "atext": "Die Einhaltung von Gesetzen, Regulativen und vertraglichen Vereinbarungen, welche der Geschäftsprozess berücksichtigen muss, z.B. extern auferlegte Kriterien sowie interne Richtlinien.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "128": {
+            "35": {
+                "qid": "35",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Wie ist das Informationskriterium Integrität definiert?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "11",
+                "answers": {
+                    "129": {
+                        "aid": "129",
+                        "aparentid": "35",
+                        "atext": "Die Angemessenheit bereitgestellter Informationen, die vom Management verwendet werden, um die Gesellschaft zu leiten und seine Treue- und Governance-Pflichten ausüben zu können.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "129": {
+            "35": {
+                "qid": "35",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "Wie ist das Informationskriterium Integrität definiert?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "11",
+                "answers": {
+                    "130": {
+                        "aid": "130",
+                        "aparentid": "35",
+                        "atext": "Die Aktualität und Verlässlichkeit von Informationen sowie deren Rückverfolgbarkeit auf die Informationsquelle.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "130": {
+            "36": {
+                "qid": "36",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "In COBIT gibt es drei Dimensionen der Prozessreife. Welche sind es?",
+                "qmode": "1",
+                "qanswers": "5",
+                "qsort": "12",
+                "answers": {
+                    "131": {
+                        "aid": "131",
+                        "aparentid": "36",
+                        "atext": "Strategie, Struktur und Prozesse",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "131": {
+            "36": {
+                "qid": "36",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "In COBIT gibt es drei Dimensionen der Prozessreife. Welche sind es?",
+                "qmode": "1",
+                "qanswers": "5",
+                "qsort": "12",
+                "answers": {
+                    "132": {
+                        "aid": "132",
+                        "aparentid": "36",
+                        "atext": "Institutionen, Normen und Prozesse",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "132": {
+            "36": {
+                "qid": "36",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "In COBIT gibt es drei Dimensionen der Prozessreife. Welche sind es?",
+                "qmode": "1",
+                "qanswers": "5",
+                "qsort": "12",
+                "answers": {
+                    "133": {
+                        "aid": "133",
+                        "aparentid": "36",
+                        "atext": "Potenzial, Performance und Controls",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "133": {
+            "36": {
+                "qid": "36",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "In COBIT gibt es drei Dimensionen der Prozessreife. Welche sind es?",
+                "qmode": "1",
+                "qanswers": "5",
+                "qsort": "12",
+                "answers": {
+                    "134": {
+                        "aid": "134",
+                        "aparentid": "36",
+                        "atext": "Mitarbeiter, Aufgabe und Mitwirkung",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "134": {
+            "36": {
+                "qid": "36",
+                "gameid": "3",
+                "topic": "IT Quality",
+                "qparentid": "3",
+                "qtext": "In COBIT gibt es drei Dimensionen der Prozessreife. Welche sind es?",
+                "qmode": "1",
+                "qanswers": "5",
+                "qsort": "12",
+                "answers": {
+                    "135": {
+                        "aid": "135",
+                        "aparentid": "36",
+                        "atext": "Identität, Information und Interaktion",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "135": {
+            "37": {
+                "qid": "37",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche der folgenden sind Beispiele für Customer Satisfaction Indices (CSIs), die mit Prozessmeßgrößen verknüpft werden?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "1",
+                "answers": {
+                    "136": {
+                        "aid": "136",
+                        "aparentid": "37",
+                        "atext": "Reaktionszeit auf Anfragen",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "136": {
+            "37": {
+                "qid": "37",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche der folgenden sind Beispiele für Customer Satisfaction Indices (CSIs), die mit Prozessmeßgrößen verknüpft werden?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "1",
+                "answers": {
+                    "137": {
+                        "aid": "137",
+                        "aparentid": "37",
+                        "atext": "Erreichbarkeit des Service Desk",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "137": {
+            "37": {
+                "qid": "37",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche der folgenden sind Beispiele für Customer Satisfaction Indices (CSIs), die mit Prozessmeßgrößen verknüpft werden?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "1",
+                "answers": {
+                    "138": {
+                        "aid": "138",
+                        "aparentid": "37",
+                        "atext": "Kosten der Problemlösung",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "138": {
+            "37": {
+                "qid": "37",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche der folgenden sind Beispiele für Customer Satisfaction Indices (CSIs), die mit Prozessmeßgrößen verknüpft werden?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "1",
+                "answers": {
+                    "139": {
+                        "aid": "139",
+                        "aparentid": "37",
+                        "atext": "Reklamationsrate",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "139": {
+            "37": {
+                "qid": "37",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche der folgenden sind Beispiele für Customer Satisfaction Indices (CSIs), die mit Prozessmeßgrößen verknüpft werden?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "1",
+                "answers": {
+                    "140": {
+                        "aid": "140",
+                        "aparentid": "37",
+                        "atext": "Anzahl an Changes",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "140": {
+            "38": {
+                "qid": "38",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche der folgenden sind Kennzahlen des Incident Managements",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "2",
+                "answers": {
+                    "141": {
+                        "aid": "141",
+                        "aparentid": "38",
+                        "atext": "Problem-Lösungszeit",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "141": {
+            "38": {
+                "qid": "38",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche der folgenden sind Kennzahlen des Incident Managements",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "2",
+                "answers": {
+                    "142": {
+                        "aid": "142",
+                        "aparentid": "38",
+                        "atext": "Anzahl Incidents pro Known Problem (bekanntem Problem)",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "142": {
+            "38": {
+                "qid": "38",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche der folgenden sind Kennzahlen des Incident Managements",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "2",
+                "answers": {
+                    "143": {
+                        "aid": "143",
+                        "aparentid": "38",
+                        "atext": "Erstlösungsrate",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "143": {
+            "38": {
+                "qid": "38",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche der folgenden sind Kennzahlen des Incident Managements",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "2",
+                "answers": {
+                    "144": {
+                        "aid": "144",
+                        "aparentid": "38",
+                        "atext": "Durchschnittliche Antwortzeit",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "144": {
+            "39": {
+                "qid": "39",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Wie wird die Compliance der IT-Prozesse gemessen?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "3",
+                "answers": {
+                    "145": {
+                        "aid": "145",
+                        "aparentid": "39",
+                        "atext": "Anzahl und Umfang der Control Self-Assessments",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "145": {
+            "39": {
+                "qid": "39",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Wie wird die Compliance der IT-Prozesse gemessen?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "3",
+                "answers": {
+                    "146": {
+                        "aid": "146",
+                        "aparentid": "39",
+                        "atext": "Kosten der IT Non-Compliance, einschließlich Vergleichen und Strafen",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "146": {
+            "39": {
+                "qid": "39",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Wie wird die Compliance der IT-Prozesse gemessen?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "3",
+                "answers": {
+                    "147": {
+                        "aid": "147",
+                        "aparentid": "39",
+                        "atext": "Anzahl der Verbesserungsinitiativen für Controls",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "147": {
+            "39": {
+                "qid": "39",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Wie wird die Compliance der IT-Prozesse gemessen?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "3",
+                "answers": {
+                    "148": {
+                        "aid": "148",
+                        "aparentid": "39",
+                        "atext": "Zufriedenheit des Managements und der Governance-Organisationseinheit mit der Performance-Berichterstattung",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "148": {
+            "39": {
+                "qid": "39",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Wie wird die Compliance der IT-Prozesse gemessen?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "3",
+                "answers": {
+                    "149": {
+                        "aid": "149",
+                        "aparentid": "39",
+                        "atext": "Häufigkeit der Compliance-Reviews",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "149": {
+            "40": {
+                "qid": "40",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche der folgenden sind ITIL-Kennzahlen zur Prozess-Evaluierung",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "4",
+                "answers": {
+                    "150": {
+                        "aid": "150",
+                        "aparentid": "40",
+                        "atext": "Anzahl von Service-Reviews",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "150": {
+            "40": {
+                "qid": "40",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche der folgenden sind ITIL-Kennzahlen zur Prozess-Evaluierung",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "4",
+                "answers": {
+                    "151": {
+                        "aid": "151",
+                        "aparentid": "40",
+                        "atext": "Anzahl von Prozess-Evaluierungen",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "151": {
+            "40": {
+                "qid": "40",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche der folgenden sind ITIL-Kennzahlen zur Prozess-Evaluierung",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "4",
+                "answers": {
+                    "152": {
+                        "aid": "152",
+                        "aparentid": "40",
+                        "atext": "Anzahl von Prozess-Benchmarks, Prozess-Maturity-Assessments und Prozess-Audits",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "152": {
+            "40": {
+                "qid": "40",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche der folgenden sind ITIL-Kennzahlen zur Prozess-Evaluierung",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "4",
+                "answers": {
+                    "153": {
+                        "aid": "153",
+                        "aparentid": "40",
+                        "atext": "Anzahl von CSI-Initiativen",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "153": {
+            "41": {
+                "qid": "41",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was muss bei der Verwendung von Kennzahlen beachtet werden?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "5",
+                "answers": {
+                    "154": {
+                        "aid": "154",
+                        "aparentid": "41",
+                        "atext": "Viele Kennzahlen sind besser als wenige.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "154": {
+            "41": {
+                "qid": "41",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was muss bei der Verwendung von Kennzahlen beachtet werden?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "5",
+                "answers": {
+                    "155": {
+                        "aid": "155",
+                        "aparentid": "41",
+                        "atext": "Kennzahlen müssen widerspruchsfrei sein.",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "155": {
+            "41": {
+                "qid": "41",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was muss bei der Verwendung von Kennzahlen beachtet werden?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "5",
+                "answers": {
+                    "156": {
+                        "aid": "156",
+                        "aparentid": "41",
+                        "atext": "Kennzahlen beeinflussen sich nicht gegenseitig.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "156": {
+            "41": {
+                "qid": "41",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was muss bei der Verwendung von Kennzahlen beachtet werden?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "5",
+                "answers": {
+                    "157": {
+                        "aid": "157",
+                        "aparentid": "41",
+                        "atext": "Fehler in den zugrundeliegenden Daten haben aufgrund der Aggregation keinen Einfluss auf die gewonnenen Kennzahlen.\t",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "157": {
+            "41": {
+                "qid": "41",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was muss bei der Verwendung von Kennzahlen beachtet werden?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "5",
+                "answers": {
+                    "158": {
+                        "aid": "158",
+                        "aparentid": "41",
+                        "atext": "Kennzahlen müssen eindeutig definiert und bezeichnet sein.",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "158": {
+            "42": {
+                "qid": "42",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Unter der Sensitivität von Kennzahlen versteht man",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "6",
+                "answers": {
+                    "159": {
+                        "aid": "159",
+                        "aparentid": "42",
+                        "atext": "die exakte Quantifizierbarkeit der Werte.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "159": {
+            "42": {
+                "qid": "42",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Unter der Sensitivität von Kennzahlen versteht man",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "6",
+                "answers": {
+                    "160": {
+                        "aid": "160",
+                        "aparentid": "42",
+                        "atext": "die manipulationsfreie Bestimmung der Werte.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "160": {
+            "42": {
+                "qid": "42",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Unter der Sensitivität von Kennzahlen versteht man",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "6",
+                "answers": {
+                    "161": {
+                        "aid": "161",
+                        "aparentid": "42",
+                        "atext": "die Auswirkungen, die Änderungen in der Umwelt auf die Werte haben.",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "161": {
+            "42": {
+                "qid": "42",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Unter der Sensitivität von Kennzahlen versteht man",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "6",
+                "answers": {
+                    "162": {
+                        "aid": "162",
+                        "aparentid": "42",
+                        "atext": "die widerspruchsfreie Objektivität der Werte.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "162": {
+            "43": {
+                "qid": "43",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was sind die Schwierigkeiten bei der Messung von IT-Qualität?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "7",
+                "answers": {
+                    "163": {
+                        "aid": "163",
+                        "aparentid": "43",
+                        "atext": "Unterschiedliche Ansichten der Beteiligten",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "163": {
+            "43": {
+                "qid": "43",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was sind die Schwierigkeiten bei der Messung von IT-Qualität?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "7",
+                "answers": {
+                    "164": {
+                        "aid": "164",
+                        "aparentid": "43",
+                        "atext": "Die IT-Qualität ist nicht definiert",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "164": {
+            "43": {
+                "qid": "43",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was sind die Schwierigkeiten bei der Messung von IT-Qualität?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "7",
+                "answers": {
+                    "165": {
+                        "aid": "165",
+                        "aparentid": "43",
+                        "atext": "Praxistaugliche Werkzeug zur Erhebung und Beurteilung fehlen",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "165": {
+            "43": {
+                "qid": "43",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was sind die Schwierigkeiten bei der Messung von IT-Qualität?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "7",
+                "answers": {
+                    "166": {
+                        "aid": "166",
+                        "aparentid": "43",
+                        "atext": "Keine Schwierigkeiten, denn das SLA definiert die IT-Qualität",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "166": {
+            "44": {
+                "qid": "44",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was sollte ein IT-Servicemanagement-Qualitätsreport beinhalten?",
+                "qmode": "0",
+                "qanswers": "6",
+                "qsort": "8",
+                "answers": {
+                    "167": {
+                        "aid": "167",
+                        "aparentid": "44",
+                        "atext": "Zielerreichung der IT-Servicemanagementprozesse",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "167": {
+            "44": {
+                "qid": "44",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was sollte ein IT-Servicemanagement-Qualitätsreport beinhalten?",
+                "qmode": "0",
+                "qanswers": "6",
+                "qsort": "8",
+                "answers": {
+                    "168": {
+                        "aid": "168",
+                        "aparentid": "44",
+                        "atext": "Kosten der einzelnen Changes",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "168": {
+            "44": {
+                "qid": "44",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was sollte ein IT-Servicemanagement-Qualitätsreport beinhalten?",
+                "qmode": "0",
+                "qanswers": "6",
+                "qsort": "8",
+                "answers": {
+                    "169": {
+                        "aid": "169",
+                        "aparentid": "44",
+                        "atext": "SLA-Verletzungen",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "169": {
+            "44": {
+                "qid": "44",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was sollte ein IT-Servicemanagement-Qualitätsreport beinhalten?",
+                "qmode": "0",
+                "qanswers": "6",
+                "qsort": "8",
+                "answers": {
+                    "170": {
+                        "aid": "170",
+                        "aparentid": "44",
+                        "atext": "Bearbeitungszeiten der abgeschlossenen Incidents",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "170": {
+            "44": {
+                "qid": "44",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was sollte ein IT-Servicemanagement-Qualitätsreport beinhalten?",
+                "qmode": "0",
+                "qanswers": "6",
+                "qsort": "8",
+                "answers": {
+                    "171": {
+                        "aid": "171",
+                        "aparentid": "44",
+                        "atext": "Trendanalysen für das Problem- und Capacity-Management",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "171": {
+            "44": {
+                "qid": "44",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was sollte ein IT-Servicemanagement-Qualitätsreport beinhalten?",
+                "qmode": "0",
+                "qanswers": "6",
+                "qsort": "8",
+                "answers": {
+                    "172": {
+                        "aid": "172",
+                        "aparentid": "44",
+                        "atext": "Warnung vor drohenden Engpässen",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "172": {
+            "45": {
+                "qid": "45",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche der folgenden sind Messmethoden, Standards und Protokolle die zum Service Level Monitoring verwendet werden?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "9",
+                "answers": {
+                    "173": {
+                        "aid": "173",
+                        "aparentid": "45",
+                        "atext": "PPS, ERP, CRM",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "173": {
+            "45": {
+                "qid": "45",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche der folgenden sind Messmethoden, Standards und Protokolle die zum Service Level Monitoring verwendet werden?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "9",
+                "answers": {
+                    "174": {
+                        "aid": "174",
+                        "aparentid": "45",
+                        "atext": "EMV, ESD",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "174": {
+            "45": {
+                "qid": "45",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche der folgenden sind Messmethoden, Standards und Protokolle die zum Service Level Monitoring verwendet werden?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "9",
+                "answers": {
+                    "175": {
+                        "aid": "175",
+                        "aparentid": "45",
+                        "atext": "SNMP, RMON, ARM",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "175": {
+            "45": {
+                "qid": "45",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche der folgenden sind Messmethoden, Standards und Protokolle die zum Service Level Monitoring verwendet werden?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "9",
+                "answers": {
+                    "176": {
+                        "aid": "176",
+                        "aparentid": "45",
+                        "atext": "SQL, WMI, WBEM",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "176": {
+            "46": {
+                "qid": "46",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was stellt ein Service Level dar?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "10",
+                "answers": {
+                    "177": {
+                        "aid": "177",
+                        "aparentid": "46",
+                        "atext": "Die Obergrenze für die dokumentierte Leistung einer (quantitativen) Qualitätsmetrik.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "177": {
+            "46": {
+                "qid": "46",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was stellt ein Service Level dar?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "10",
+                "answers": {
+                    "178": {
+                        "aid": "178",
+                        "aparentid": "46",
+                        "atext": "Den Durchschnittswert für die dokumentierte Leistung einer (quantitativen) Qualitätsmetrik.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "178": {
+            "46": {
+                "qid": "46",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was stellt ein Service Level dar?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "10",
+                "answers": {
+                    "179": {
+                        "aid": "179",
+                        "aparentid": "46",
+                        "atext": "Die Untergrenze für die dokumentierte Leistung einer (quantitativen) Qualitätsmetrik.",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "179": {
+            "46": {
+                "qid": "46",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was stellt ein Service Level dar?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "10",
+                "answers": {
+                    "180": {
+                        "aid": "180",
+                        "aparentid": "46",
+                        "atext": "Den Worst Case für die dokumentierte Leistung einer (quantitativen) Qualitätsmetrik.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "180": {
+            "47": {
+                "qid": "47",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was versteht man unter subjektiver Performance eines Services?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "11",
+                "answers": {
+                    "181": {
+                        "aid": "181",
+                        "aparentid": "47",
+                        "atext": "Performanceverhalten, wie es vom Nutzer empfunden wird.",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "181": {
+            "47": {
+                "qid": "47",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was versteht man unter subjektiver Performance eines Services?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "11",
+                "answers": {
+                    "182": {
+                        "aid": "182",
+                        "aparentid": "47",
+                        "atext": "Performanceverhalten, wie es gemessen wurde.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "182": {
+            "47": {
+                "qid": "47",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was versteht man unter subjektiver Performance eines Services?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "11",
+                "answers": {
+                    "183": {
+                        "aid": "183",
+                        "aparentid": "47",
+                        "atext": "Performanceverhalten entsprechend den Vorgaben.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "183": {
+            "47": {
+                "qid": "47",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Was versteht man unter subjektiver Performance eines Services?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "11",
+                "answers": {
+                    "184": {
+                        "aid": "184",
+                        "aparentid": "47",
+                        "atext": "Performanceverhalten unter den Qualitätszielen.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "184": {
+            "48": {
+                "qid": "48",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche Performance Metriken werden innerhalb eines SLAs verwendet?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "12",
+                "answers": {
+                    "185": {
+                        "aid": "185",
+                        "aparentid": "48",
+                        "atext": "Wartungs-bezogene Metriken",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "185": {
+            "48": {
+                "qid": "48",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche Performance Metriken werden innerhalb eines SLAs verwendet?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "12",
+                "answers": {
+                    "186": {
+                        "aid": "186",
+                        "aparentid": "48",
+                        "atext": "Durchsatz-bezogene Metriken",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "186": {
+            "48": {
+                "qid": "48",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche Performance Metriken werden innerhalb eines SLAs verwendet?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "12",
+                "answers": {
+                    "187": {
+                        "aid": "187",
+                        "aparentid": "48",
+                        "atext": "Fehler-bezogene Metriken",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "187": {
+            "48": {
+                "qid": "48",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche Performance Metriken werden innerhalb eines SLAs verwendet?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "12",
+                "answers": {
+                    "188": {
+                        "aid": "188",
+                        "aparentid": "48",
+                        "atext": "Zeit-bezogene Metriken",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "188": {
+            "48": {
+                "qid": "48",
+                "gameid": "4",
+                "topic": "IT Quality",
+                "qparentid": "4",
+                "qtext": "Welche Performance Metriken werden innerhalb eines SLAs verwendet?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "12",
+                "answers": {
+                    "189": {
+                        "aid": "189",
+                        "aparentid": "48",
+                        "atext": "Workload-bezogene Metriken",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "189": {
+            "49": {
+                "qid": "49",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche der folgenden Themen sollten Bestandteile eines SLAs sein?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "1",
+                "answers": {
+                    "190": {
+                        "aid": "190",
+                        "aparentid": "49",
+                        "atext": "Datensicherheit",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "190": {
+            "49": {
+                "qid": "49",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche der folgenden Themen sollten Bestandteile eines SLAs sein?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "1",
+                "answers": {
+                    "191": {
+                        "aid": "191",
+                        "aparentid": "49",
+                        "atext": "Reporting",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "191": {
+            "49": {
+                "qid": "49",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche der folgenden Themen sollten Bestandteile eines SLAs sein?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "1",
+                "answers": {
+                    "192": {
+                        "aid": "192",
+                        "aparentid": "49",
+                        "atext": "Service Katalog",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "192": {
+            "49": {
+                "qid": "49",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche der folgenden Themen sollten Bestandteile eines SLAs sein?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "1",
+                "answers": {
+                    "193": {
+                        "aid": "193",
+                        "aparentid": "49",
+                        "atext": "Service Beschreibungen",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "193": {
+            "49": {
+                "qid": "49",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche der folgenden Themen sollten Bestandteile eines SLAs sein?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "1",
+                "answers": {
+                    "194": {
+                        "aid": "194",
+                        "aparentid": "49",
+                        "atext": "Regressregelungen",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "194": {
+            "50": {
+                "qid": "50",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Sie wollen ihre SAP Arbeitsplätze outsourcen. Bei der Auswahl des Dienstleisters ist Ihr K.O.-Kriterium, dass der Dienst maximal eine Stunde im Monat ausfallen darf. Welche der folgenden Verfügbarkeiten passt auf Ihre Anforderung?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "2",
+                "answers": {
+                    "195": {
+                        "aid": "195",
+                        "aparentid": "50",
+                        "atext": "99,9%",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "195": {
+            "50": {
+                "qid": "50",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Sie wollen ihre SAP Arbeitsplätze outsourcen. Bei der Auswahl des Dienstleisters ist Ihr K.O.-Kriterium, dass der Dienst maximal eine Stunde im Monat ausfallen darf. Welche der folgenden Verfügbarkeiten passt auf Ihre Anforderung?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "2",
+                "answers": {
+                    "196": {
+                        "aid": "196",
+                        "aparentid": "50",
+                        "atext": "99,8%",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "196": {
+            "50": {
+                "qid": "50",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Sie wollen ihre SAP Arbeitsplätze outsourcen. Bei der Auswahl des Dienstleisters ist Ihr K.O.-Kriterium, dass der Dienst maximal eine Stunde im Monat ausfallen darf. Welche der folgenden Verfügbarkeiten passt auf Ihre Anforderung?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "2",
+                "answers": {
+                    "197": {
+                        "aid": "197",
+                        "aparentid": "50",
+                        "atext": "99,5%",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "197": {
+            "50": {
+                "qid": "50",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Sie wollen ihre SAP Arbeitsplätze outsourcen. Bei der Auswahl des Dienstleisters ist Ihr K.O.-Kriterium, dass der Dienst maximal eine Stunde im Monat ausfallen darf. Welche der folgenden Verfügbarkeiten passt auf Ihre Anforderung?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "2",
+                "answers": {
+                    "198": {
+                        "aid": "198",
+                        "aparentid": "50",
+                        "atext": "99%",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "198": {
+            "51": {
+                "qid": "51",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Auch die Mitarbeiterinnen haben einen großen Einfluss auf die IT-Qualität. Welche Messgrößen gibt es für das Personal?",
+                "qmode": "0",
+                "qanswers": "6",
+                "qsort": "3",
+                "answers": {
+                    "199": {
+                        "aid": "199",
+                        "aparentid": "51",
+                        "atext": "Anzahl der Mitarbeiterinnen",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "199": {
+            "51": {
+                "qid": "51",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Auch die Mitarbeiterinnen haben einen großen Einfluss auf die IT-Qualität. Welche Messgrößen gibt es für das Personal?",
+                "qmode": "0",
+                "qanswers": "6",
+                "qsort": "3",
+                "answers": {
+                    "200": {
+                        "aid": "200",
+                        "aparentid": "51",
+                        "atext": "Fluktuationsrate",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "200": {
+            "51": {
+                "qid": "51",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Auch die Mitarbeiterinnen haben einen großen Einfluss auf die IT-Qualität. Welche Messgrößen gibt es für das Personal?",
+                "qmode": "0",
+                "qanswers": "6",
+                "qsort": "3",
+                "answers": {
+                    "201": {
+                        "aid": "201",
+                        "aparentid": "51",
+                        "atext": "Qualifikationslevel und Zertifizierungen",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "201": {
+            "51": {
+                "qid": "51",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Auch die Mitarbeiterinnen haben einen großen Einfluss auf die IT-Qualität. Welche Messgrößen gibt es für das Personal?",
+                "qmode": "0",
+                "qanswers": "6",
+                "qsort": "3",
+                "answers": {
+                    "202": {
+                        "aid": "202",
+                        "aparentid": "51",
+                        "atext": "Abhängigkeiten von Schlüsselpersonen",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "202": {
+            "51": {
+                "qid": "51",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Auch die Mitarbeiterinnen haben einen großen Einfluss auf die IT-Qualität. Welche Messgrößen gibt es für das Personal?",
+                "qmode": "0",
+                "qanswers": "6",
+                "qsort": "3",
+                "answers": {
+                    "203": {
+                        "aid": "203",
+                        "aparentid": "51",
+                        "atext": "Gehalt der Mitarbeiterinnen",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "203": {
+            "51": {
+                "qid": "51",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Auch die Mitarbeiterinnen haben einen großen Einfluss auf die IT-Qualität. Welche Messgrößen gibt es für das Personal?",
+                "qmode": "0",
+                "qanswers": "6",
+                "qsort": "3",
+                "answers": {
+                    "204": {
+                        "aid": "204",
+                        "aparentid": "51",
+                        "atext": "Alter der Mitarbeiterinnen",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "204": {
+            "52": {
+                "qid": "52",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche Informationen sollten im Service Level Agreement Review dokumentiert sein?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "4",
+                "answers": {
+                    "205": {
+                        "aid": "205",
+                        "aparentid": "52",
+                        "atext": "besondere Vorkommnisse",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "205": {
+            "52": {
+                "qid": "52",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche Informationen sollten im Service Level Agreement Review dokumentiert sein?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "4",
+                "answers": {
+                    "206": {
+                        "aid": "206",
+                        "aparentid": "52",
+                        "atext": "Beschlossene Maßnahmen zur Steigerung der Qualität des IT-Services",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "206": {
+            "52": {
+                "qid": "52",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche Informationen sollten im Service Level Agreement Review dokumentiert sein?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "4",
+                "answers": {
+                    "207": {
+                        "aid": "207",
+                        "aparentid": "52",
+                        "atext": "Kundenbeschwerden",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "207": {
+            "52": {
+                "qid": "52",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche Informationen sollten im Service Level Agreement Review dokumentiert sein?",
+                "qmode": "0",
+                "qanswers": "4",
+                "qsort": "4",
+                "answers": {
+                    "208": {
+                        "aid": "208",
+                        "aparentid": "52",
+                        "atext": "Beurteilung der Servicequalität durch den Kunden",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "208": {
+            "53": {
+                "qid": "53",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche der folgenden vier Dimensionen sind sinnvoll, um IT-Qualität zu erfassen?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "5",
+                "answers": {
+                    "209": {
+                        "aid": "209",
+                        "aparentid": "53",
+                        "atext": "Service, Störungen und Probleme, Sicherheit und Vorsorge, Umwelt und Energie",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "209": {
+            "53": {
+                "qid": "53",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche der folgenden vier Dimensionen sind sinnvoll, um IT-Qualität zu erfassen?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "5",
+                "answers": {
+                    "210": {
+                        "aid": "210",
+                        "aparentid": "53",
+                        "atext": "User-Kontrolle, Offenheit, (A)Synchronität und Konnektivität",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "210": {
+            "53": {
+                "qid": "53",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche der folgenden vier Dimensionen sind sinnvoll, um IT-Qualität zu erfassen?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "5",
+                "answers": {
+                    "211": {
+                        "aid": "211",
+                        "aparentid": "53",
+                        "atext": "Wettbewerb, Dienstleistungen, Prozessen und Zentralisierung",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "211": {
+            "53": {
+                "qid": "53",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche der folgenden vier Dimensionen sind sinnvoll, um IT-Qualität zu erfassen?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "5",
+                "answers": {
+                    "212": {
+                        "aid": "212",
+                        "aparentid": "53",
+                        "atext": "Hosting, Server, Support, Systems",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "212": {
+            "54": {
+                "qid": "54",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Für die Prozessverbesserung z.B. mit CMMI for Services (CMMI-SVC), hat sich das folgende Vorgehen bewährt:",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "6",
+                "answers": {
+                    "213": {
+                        "aid": "213",
+                        "aparentid": "54",
+                        "atext": "SABAL - Start, Analyse, Bewerten, Anpassen, Lernen",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "213": {
+            "54": {
+                "qid": "54",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Für die Prozessverbesserung z.B. mit CMMI for Services (CMMI-SVC), hat sich das folgende Vorgehen bewährt:",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "6",
+                "answers": {
+                    "214": {
+                        "aid": "214",
+                        "aparentid": "54",
+                        "atext": "ISABO - Initiierung, Sammeln, Analysieren, Bewerten, Optimieren",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "214": {
+            "54": {
+                "qid": "54",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Für die Prozessverbesserung z.B. mit CMMI for Services (CMMI-SVC), hat sich das folgende Vorgehen bewährt:",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "6",
+                "answers": {
+                    "215": {
+                        "aid": "215",
+                        "aparentid": "54",
+                        "atext": "IDEAL - Initiierung, Diagnose, Erarbeiten, Agieren, Lernen",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "215": {
+            "54": {
+                "qid": "54",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Für die Prozessverbesserung z.B. mit CMMI for Services (CMMI-SVC), hat sich das folgende Vorgehen bewährt:",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "6",
+                "answers": {
+                    "216": {
+                        "aid": "216",
+                        "aparentid": "54",
+                        "atext": "EDABO - Erhebung, Dokumenation, Analyse, Bewerten, Optimieren",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "216": {
+            "55": {
+                "qid": "55",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche der folgenden sind Prozessgebiete von CMMI-SVC?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "7",
+                "answers": {
+                    "217": {
+                        "aid": "217",
+                        "aparentid": "55",
+                        "atext": "Incident Resolution and Prevention (IRP)",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "217": {
+            "55": {
+                "qid": "55",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche der folgenden sind Prozessgebiete von CMMI-SVC?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "7",
+                "answers": {
+                    "218": {
+                        "aid": "218",
+                        "aparentid": "55",
+                        "atext": "Service Reporting (SREP)",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "218": {
+            "55": {
+                "qid": "55",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche der folgenden sind Prozessgebiete von CMMI-SVC?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "7",
+                "answers": {
+                    "219": {
+                        "aid": "219",
+                        "aparentid": "55",
+                        "atext": "Service Quality Management (SQM)",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "219": {
+            "55": {
+                "qid": "55",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche der folgenden sind Prozessgebiete von CMMI-SVC?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "7",
+                "answers": {
+                    "220": {
+                        "aid": "220",
+                        "aparentid": "55",
+                        "atext": "Capacity and Availability Management (CAM)",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "220": {
+            "55": {
+                "qid": "55",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche der folgenden sind Prozessgebiete von CMMI-SVC?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "7",
+                "answers": {
+                    "221": {
+                        "aid": "221",
+                        "aparentid": "55",
+                        "atext": "Service Continuity (SCON)",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "221": {
+            "56": {
+                "qid": "56",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Auf welchen der folgenden Grundkonzepten beruht das EFQM Excellence Modell?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "8",
+                "answers": {
+                    "222": {
+                        "aid": "222",
+                        "aparentid": "56",
+                        "atext": "Ergebnisorientierung",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "222": {
+            "56": {
+                "qid": "56",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Auf welchen der folgenden Grundkonzepten beruht das EFQM Excellence Modell?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "8",
+                "answers": {
+                    "223": {
+                        "aid": "223",
+                        "aparentid": "56",
+                        "atext": "Ausrichtung auf den Lieferanten",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "223": {
+            "56": {
+                "qid": "56",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Auf welchen der folgenden Grundkonzepten beruht das EFQM Excellence Modell?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "8",
+                "answers": {
+                    "224": {
+                        "aid": "224",
+                        "aparentid": "56",
+                        "atext": "Entwicklung von Partnerschaften mit Kunden",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "224": {
+            "56": {
+                "qid": "56",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Auf welchen der folgenden Grundkonzepten beruht das EFQM Excellence Modell?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "8",
+                "answers": {
+                    "225": {
+                        "aid": "225",
+                        "aparentid": "56",
+                        "atext": "Führung und Zielkonsequenz",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "225": {
+            "56": {
+                "qid": "56",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Auf welchen der folgenden Grundkonzepten beruht das EFQM Excellence Modell?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "8",
+                "answers": {
+                    "226": {
+                        "aid": "226",
+                        "aparentid": "56",
+                        "atext": "Management mittels Vorhersagen und Schätzwerten",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "226": {
+            "57": {
+                "qid": "57",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Wie erfolgt die Bewertung der Qualitätsfähigkeit, also der Business Excellence, beim Excellence Modell der EFQM (European Foundation for Quality Management)?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "9",
+                "answers": {
+                    "227": {
+                        "aid": "227",
+                        "aparentid": "57",
+                        "atext": "regelmäßige Zertifizierungen",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "227": {
+            "57": {
+                "qid": "57",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Wie erfolgt die Bewertung der Qualitätsfähigkeit, also der Business Excellence, beim Excellence Modell der EFQM (European Foundation for Quality Management)?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "9",
+                "answers": {
+                    "228": {
+                        "aid": "228",
+                        "aparentid": "57",
+                        "atext": "jährliche Audits",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "228": {
+            "57": {
+                "qid": "57",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Wie erfolgt die Bewertung der Qualitätsfähigkeit, also der Business Excellence, beim Excellence Modell der EFQM (European Foundation for Quality Management)?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "9",
+                "answers": {
+                    "229": {
+                        "aid": "229",
+                        "aparentid": "57",
+                        "atext": "regelmäßige Selbstbewertungen",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "229": {
+            "57": {
+                "qid": "57",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Wie erfolgt die Bewertung der Qualitätsfähigkeit, also der Business Excellence, beim Excellence Modell der EFQM (European Foundation for Quality Management)?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "9",
+                "answers": {
+                    "230": {
+                        "aid": "230",
+                        "aparentid": "57",
+                        "atext": "regelmäßige Fremdbewertungen",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "230": {
+            "58": {
+                "qid": "58",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welches der folgenden Zitate stellt das Konzept des Messens dar?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "10",
+                "answers": {
+                    "231": {
+                        "aid": "231",
+                        "aparentid": "58",
+                        "atext": "\"You cannot define what you cannot control. You cannot control what you cannot measure. You cannot measure what you cannot manage.\"",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "231": {
+            "58": {
+                "qid": "58",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welches der folgenden Zitate stellt das Konzept des Messens dar?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "10",
+                "answers": {
+                    "232": {
+                        "aid": "232",
+                        "aparentid": "58",
+                        "atext": "\"You cannot develop what you cannot control. You cannot control what you cannot measure. You cannot measure what you cannot define.\"",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "232": {
+            "58": {
+                "qid": "58",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welches der folgenden Zitate stellt das Konzept des Messens dar?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "10",
+                "answers": {
+                    "233": {
+                        "aid": "233",
+                        "aparentid": "58",
+                        "atext": "\"You cannot manage what you cannot control. You cannot control what you cannot change. You cannot change what you cannot define.\"",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "233": {
+            "58": {
+                "qid": "58",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welches der folgenden Zitate stellt das Konzept des Messens dar?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "10",
+                "answers": {
+                    "234": {
+                        "aid": "234",
+                        "aparentid": "58",
+                        "atext": "\"You cannot manage what you cannot control. You cannot control what you cannot measure. You cannot measure what you cannot define.\"",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "234": {
+            "59": {
+                "qid": "59",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Sie sollen einen Service Quality Plan (SQP) erstellen, was sollte er umfassen?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "11",
+                "answers": {
+                    "235": {
+                        "aid": "235",
+                        "aparentid": "59",
+                        "atext": "Absprachen hinsichtlich der zu leistenden IT-Services",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "235": {
+            "59": {
+                "qid": "59",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Sie sollen einen Service Quality Plan (SQP) erstellen, was sollte er umfassen?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "11",
+                "answers": {
+                    "236": {
+                        "aid": "236",
+                        "aparentid": "59",
+                        "atext": "die Wünsche des Kunden",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "236": {
+            "59": {
+                "qid": "59",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Sie sollen einen Service Quality Plan (SQP) erstellen, was sollte er umfassen?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "11",
+                "answers": {
+                    "237": {
+                        "aid": "237",
+                        "aparentid": "59",
+                        "atext": "Parameter für die Service-Management-Prozesse",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "237": {
+            "59": {
+                "qid": "59",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Sie sollen einen Service Quality Plan (SQP) erstellen, was sollte er umfassen?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "11",
+                "answers": {
+                    "238": {
+                        "aid": "238",
+                        "aparentid": "59",
+                        "atext": "Parameter für das Operative Management",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "238": {
+            "59": {
+                "qid": "59",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Sie sollen einen Service Quality Plan (SQP) erstellen, was sollte er umfassen?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "11",
+                "answers": {
+                    "239": {
+                        "aid": "239",
+                        "aparentid": "59",
+                        "atext": "Aktionen, die zur Verbesserung eines IT-Service in einem definierten Arbeitsbereich oder Prozess beitragen",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "239": {
+            "60": {
+                "qid": "60",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "QMS",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "12",
+                "answers": {
+                    "240": {
+                        "aid": "240",
+                        "aparentid": "60",
+                        "atext": "Framework von Richtlinien, Prozessen, Funktionen, Standards, Leitlinien und Hilfsmitteln und Tools, das sicherstellt, dass die Qualität in einer Organisation geeignet ist, um Geschäftsziele oder Service Levels zuverlässig zu erreichen.",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "240": {
+            "60": {
+                "qid": "60",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "QMS",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "12",
+                "answers": {
+                    "241": {
+                        "aid": "241",
+                        "aparentid": "60",
+                        "atext": "Ein Framework, das in der Budgetplanung und Kostenrechnung genutzt wird und in dem alle bekannten Kosten erfasst, kategorisiert und spezifischen Kunden, Geschäftsbereichen oder Projekten zugeordnet werden können.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "241": {
+            "60": {
+                "qid": "60",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "QMS",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "12",
+                "answers": {
+                    "242": {
+                        "aid": "242",
+                        "aparentid": "60",
+                        "atext": "Ein Framework, das Organisationen dabei unterstützt, Analysen und Entscheidungen an Service Sourcing Modellen und -Strategien auszurichten.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "242": {
+            "60": {
+                "qid": "60",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "QMS",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "12",
+                "answers": {
+                    "243": {
+                        "aid": "243",
+                        "aparentid": "60",
+                        "atext": "Das Framework von Richtlinien, Prozessen, Funktionen, Standards, Leitlinien und Hilfsmitteln und Tools, das sicherstellt, dass eine Organisation ihre Ziele in Bezug auf das Information Security Management erreichen kann.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "243": {
+            "61": {
+                "qid": "61",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Wie lautet die Prozessverbesserungshypothese von CMMI?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "13",
+                "answers": {
+                    "244": {
+                        "aid": "244",
+                        "aparentid": "61",
+                        "atext": "\"Die Qualität eines Systems bzw. Produkts ist stark abhängig von der Qualität der Daten, die als seine Basis, zu seiner Entwicklung und zu seinem Betrieb eingesetzt werden.\"",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "244": {
+            "61": {
+                "qid": "61",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Wie lautet die Prozessverbesserungshypothese von CMMI?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "13",
+                "answers": {
+                    "245": {
+                        "aid": "245",
+                        "aparentid": "61",
+                        "atext": "\"Die Qualität eines Systems bzw. Produkts ist stark abhängig von der Qualität der Prozesse, die zu seinem Erwerb, seiner Entwicklung und zu seinem Betrieb eingesetzt werden.\"",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "245": {
+            "61": {
+                "qid": "61",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Wie lautet die Prozessverbesserungshypothese von CMMI?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "13",
+                "answers": {
+                    "246": {
+                        "aid": "246",
+                        "aparentid": "61",
+                        "atext": "\"Die Qualität eines Systems bzw. Produkts ist stark abhängig von der Qualität der Informationen, die zu seinem Design, seiner Entwicklung und zu seinem Betrieb eingesetzt werden.\"",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "246": {
+            "61": {
+                "qid": "61",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Wie lautet die Prozessverbesserungshypothese von CMMI?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "13",
+                "answers": {
+                    "247": {
+                        "aid": "247",
+                        "aparentid": "61",
+                        "atext": "\"Die Qualität eines Systems bzw. Produkts ist stark abhängig von der Qualität der Organisation, die für seinen Erwerb, seine Entwicklung und für seinen Betrieb verantwortlich ist.\"",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "247": {
+            "62": {
+                "qid": "62",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Was ist der Unterschied zwischen Assessment, verwendet bei ISO 15504\/SPICE, und Appraisal, verwendet bei CMMI?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "14",
+                "answers": {
+                    "248": {
+                        "aid": "248",
+                        "aparentid": "62",
+                        "atext": "Beim Assessment steht die Organisation im Vordergrund beim Appraisal die Prozesse.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "248": {
+            "62": {
+                "qid": "62",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Was ist der Unterschied zwischen Assessment, verwendet bei ISO 15504\/SPICE, und Appraisal, verwendet bei CMMI?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "14",
+                "answers": {
+                    "249": {
+                        "aid": "249",
+                        "aparentid": "62",
+                        "atext": "Das Assessment ist eine Obermenge des Appraisals, insoweit beinhaltet jedes Assessment auch ein Appraisal.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "249": {
+            "62": {
+                "qid": "62",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Was ist der Unterschied zwischen Assessment, verwendet bei ISO 15504\/SPICE, und Appraisal, verwendet bei CMMI?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "14",
+                "answers": {
+                    "250": {
+                        "aid": "250",
+                        "aparentid": "62",
+                        "atext": "Es gibt keinen Unterschied, beide meinen das Gleiche.",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "250": {
+            "62": {
+                "qid": "62",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Was ist der Unterschied zwischen Assessment, verwendet bei ISO 15504\/SPICE, und Appraisal, verwendet bei CMMI?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "14",
+                "answers": {
+                    "251": {
+                        "aid": "251",
+                        "aparentid": "62",
+                        "atext": "Ein Appraisal ist der nächste Schritt nach dem Assessment und geht tiefer ins Detail.",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "251": {
+            "63": {
+                "qid": "63",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welches System sieht ITIL für den Qualitätsmanagementprozess vor?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "15",
+                "answers": {
+                    "252": {
+                        "aid": "252",
+                        "aparentid": "63",
+                        "atext": "CMS",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "252": {
+            "63": {
+                "qid": "63",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welches System sieht ITIL für den Qualitätsmanagementprozess vor?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "15",
+                "answers": {
+                    "253": {
+                        "aid": "253",
+                        "aparentid": "63",
+                        "atext": "CMDB",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "253": {
+            "63": {
+                "qid": "63",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welches System sieht ITIL für den Qualitätsmanagementprozess vor?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "15",
+                "answers": {
+                    "254": {
+                        "aid": "254",
+                        "aparentid": "63",
+                        "atext": "QMS",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "254": {
+            "63": {
+                "qid": "63",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welches System sieht ITIL für den Qualitätsmanagementprozess vor?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "15",
+                "answers": {
+                    "255": {
+                        "aid": "255",
+                        "aparentid": "63",
+                        "atext": "keines",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "255": {
+            "64": {
+                "qid": "64",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Was sind die Teilprozesse des IT-Monitorings?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "16",
+                "answers": {
+                    "256": {
+                        "aid": "256",
+                        "aparentid": "64",
+                        "atext": "Planung, Durchführung, Kontrolle",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "256": {
+            "64": {
+                "qid": "64",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Was sind die Teilprozesse des IT-Monitorings?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "16",
+                "answers": {
+                    "257": {
+                        "aid": "257",
+                        "aparentid": "64",
+                        "atext": "Überwachung, (Früh-)Erkennung, Reaktion",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "257": {
+            "64": {
+                "qid": "64",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Was sind die Teilprozesse des IT-Monitorings?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "16",
+                "answers": {
+                    "258": {
+                        "aid": "258",
+                        "aparentid": "64",
+                        "atext": "Implementierung, Test, Optimierung",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "258": {
+            "64": {
+                "qid": "64",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Was sind die Teilprozesse des IT-Monitorings?",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "16",
+                "answers": {
+                    "259": {
+                        "aid": "259",
+                        "aparentid": "64",
+                        "atext": "Analyse, Korrektur, Aktion",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "259": {
+            "65": {
+                "qid": "65",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Bringen Sie die folgenden Begriffe in die richtige Reihenfolge:",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "17",
+                "answers": {
+                    "260": {
+                        "aid": "260",
+                        "aparentid": "65",
+                        "atext": "Vision - Ziele - Strategien - Taktiken - Maßnahmen - Kennzahlen",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "260": {
+            "65": {
+                "qid": "65",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Bringen Sie die folgenden Begriffe in die richtige Reihenfolge:",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "17",
+                "answers": {
+                    "261": {
+                        "aid": "261",
+                        "aparentid": "65",
+                        "atext": "Vision - Strategien - Ziele - Taktiken - Maßnahmen - Kennzahlen",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "261": {
+            "65": {
+                "qid": "65",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Bringen Sie die folgenden Begriffe in die richtige Reihenfolge:",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "17",
+                "answers": {
+                    "262": {
+                        "aid": "262",
+                        "aparentid": "65",
+                        "atext": "Vision - Ziele - Strategien - Taktiken - Kennzahlen - Maßnahmen",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "262": {
+            "65": {
+                "qid": "65",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Bringen Sie die folgenden Begriffe in die richtige Reihenfolge:",
+                "qmode": "1",
+                "qanswers": "4",
+                "qsort": "17",
+                "answers": {
+                    "263": {
+                        "aid": "263",
+                        "aparentid": "65",
+                        "atext": "Vision - Ziele - Taktiken - Strategien - Maßnahmen - Kennzahlen",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "263": {
+            "66": {
+                "qid": "66",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche der folgenden sind Analysemethoden im Rahmen des Monitorings von IT-Systemen?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "18",
+                "answers": {
+                    "264": {
+                        "aid": "264",
+                        "aparentid": "66",
+                        "atext": "Schwellwertanalyse",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "264": {
+            "66": {
+                "qid": "66",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche der folgenden sind Analysemethoden im Rahmen des Monitorings von IT-Systemen?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "18",
+                "answers": {
+                    "265": {
+                        "aid": "265",
+                        "aparentid": "66",
+                        "atext": "Ursachenanalyse",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "265": {
+            "66": {
+                "qid": "66",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche der folgenden sind Analysemethoden im Rahmen des Monitorings von IT-Systemen?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "18",
+                "answers": {
+                    "266": {
+                        "aid": "266",
+                        "aparentid": "66",
+                        "atext": "Strukturierte Analyse",
+                        "truthval": "0"
+                    }
+                }
+            }
+        },
+        "266": {
+            "66": {
+                "qid": "66",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche der folgenden sind Analysemethoden im Rahmen des Monitorings von IT-Systemen?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "18",
+                "answers": {
+                    "267": {
+                        "aid": "267",
+                        "aparentid": "66",
+                        "atext": "Ereigniskorrelation",
+                        "truthval": "1"
+                    }
+                }
+            }
+        },
+        "267": {
+            "66": {
+                "qid": "66",
+                "gameid": "5",
+                "topic": "IT Quality",
+                "qparentid": "5",
+                "qtext": "Welche der folgenden sind Analysemethoden im Rahmen des Monitorings von IT-Systemen?",
+                "qmode": "0",
+                "qanswers": "5",
+                "qsort": "18",
+                "answers": {
+                    "268": {
+                        "aid": "268",
+                        "aparentid": "66",
+                        "atext": "Objektorientierte Analyse",
+                        "truthval": "0"
+                    }
+                }
+            }
+        }
+    },
+    "topic": {
+        "id": "IT Quality",
+        "text": "Hier geht es um Expertainment, also um die Verbindung von fachlichem Wissen und spielerischem Spaß. Sie können spielerisch ermitteln, wie fit Sie beim Thema IT-Quality sind."
+    }
+}

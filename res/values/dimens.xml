@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <dimen name="standardPaddingLeft">15dip</dimen>
+    <dimen name="standardPaddingTop">10dip</dimen>
+    <dimen name="standardPaddingRight">10dip</dimen>
+    <dimen name="standardPaddingBottom">10dip</dimen>
+    <dimen name="smallPaddingLeft">5dip</dimen>
+    <dimen name="smallPaddingTop">5dip</dimen>
+    <dimen name="smallPaddingRight">5dip</dimen>
+    <dimen name="smallPaddingBottom">5dip</dimen>
+</resources>
