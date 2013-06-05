@@ -2,6 +2,7 @@ package df.denkfabrik.itfitness;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -42,6 +43,7 @@ import android.widget.TextView;
 
 public class GamesOverviewFragment extends FragmentActivity implements GameListFragement.OnItemSelectedListener{
 	private OnItemSelectedListener listener;
+	public HashMap<String,String> newData=null;
 	@Override
     protected void onCreate(Bundle savedInstanceState) {
 		overridePendingTransition(R.anim.right_slide_in, R.anim.left_slide_out);
@@ -96,7 +98,7 @@ public class GamesOverviewFragment extends FragmentActivity implements GameListF
 				@Override
 				public void run(){
 					
-					getAndWriteData();
+					newData=getAndWriteData();
 					mHandler.post(new Runnable() {
 						@Override
 						public void run(){
@@ -110,8 +112,9 @@ public class GamesOverviewFragment extends FragmentActivity implements GameListF
 
 	
 	
-	public void getAndWriteData(){
+	public HashMap<String,String> getAndWriteData(){
 		int lastTopic=1;
+		HashMap<String,String> newData=null;
 		MySQLiteHelper db=new MySQLiteHelper(this);
 		lastTopic=db.getLastTopic();
 		
@@ -132,7 +135,7 @@ public class GamesOverviewFragment extends FragmentActivity implements GameListF
 	        if (entity != null){
 	        	try {
 					JSONObject json= new JSONObject(result);
-					 writeData(json);
+					newData=writeData(json);
 	        	}catch(JSONException e){
 	        		
 	        	}
@@ -143,10 +146,11 @@ public class GamesOverviewFragment extends FragmentActivity implements GameListF
 		}catch(IOException e){
 			
 		}
-		
+		return newData;
 	}
 	
-	public void writeData(JSONObject jsonDataComplete){
+	public HashMap<String,String> writeData(JSONObject jsonDataComplete){
+		HashMap<String,String> newData=null;
 		JSONObject jsonData=null;
 		JSONObject topicData=null;
 		MySQLiteHelper db=new MySQLiteHelper(this);
@@ -175,6 +179,8 @@ public class GamesOverviewFragment extends FragmentActivity implements GameListF
 			    }else{
 			    	lastInsertTopic=(int)lastInsertTopicLong;
 			    }
+				newData.put("topicid",""+lastInsertTopic);
+				newData.put("topictitle",topicData.getString("text"));
 				for (int i=0; i<jsonData.length(); i++){
 				JSONObject sth=jsonData.getJSONObject(""+i+"");
 				Iterator qIterator=sth.keys();
@@ -234,6 +240,8 @@ public class GamesOverviewFragment extends FragmentActivity implements GameListF
 			}catch(JSONException e){
 				Log.d("Shite"," "+e);
 			}	
+			
+			return newData;
 	}
 	
 	public boolean isOnline() {
