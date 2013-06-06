@@ -2,6 +2,7 @@ package df.denkfabrik.itfitness;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -24,9 +25,13 @@ import org.json.JSONObject;
 import android.support.v4.app.Fragment;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Context;
 
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
+import android.os.Handler;
 
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -37,34 +42,60 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 
 public class GameListFragement extends Fragment {
-
+	public HashMap<String,String> newData=new HashMap();
   private OnItemSelectedListener listener;
-  public Context context;
+  public LinearLayout ll;
+  public static Context context;
+  public ProgressDialog pd;
+  
   @Override
   public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
 	    
-	  
+	
     View view = inflater.inflate(R.layout.games_list,container, false);
     
     context = getActivity().getApplication();
+    pd =  new ProgressDialog(getActivity());
     
     MySQLiteHelper db = new MySQLiteHelper(context);
     List<Topic> topicList=db.getAllTopics();
-    
+    ll = (LinearLayout) view.findViewById(R.id.gamesButtons);
+    LayoutParams lp = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
 	 for (Topic tp : topicList) {
 		 Button myButton = new Button(context);
 		 myButton.setText(tp.getTitle());
 		 myButton.setTextColor(getResources().getColor(R.color.black));
-		 LinearLayout ll = (LinearLayout) view.findViewById(R.id.gamesButtons);
+		 
 		
-		 LayoutParams lp = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
+		 
 		 ll.addView(myButton, lp);
 		 myButton.setOnClickListener(getOnClickStartGame(myButton, tp.getID()));
 	 }
+	Button updateButton=new Button(context);
+	LinearLayout updateButtonWrap=(LinearLayout) view.findViewById(R.id.updateButtonWrap);
+	updateButton.setText(getResources().getString(R.string.update));
+	updateButton.setTextColor(getResources().getColor(R.color.black));
+	updateButtonWrap.addView(updateButton,lp);	
+	updateButton.setOnClickListener(triggerUpdate(updateButton));
 	
     return view;
   }
   
+  View.OnClickListener triggerUpdate(final Button button){
+	  return new View.OnClickListener() {
+	        public void onClick(View v) {
+	        	
+	        	
+	        	pd.setTitle("Loading");
+	        	pd.setMessage("Wait while loading...");
+	        	pd.show();
+	        	// To dismiss the dialog
+	        	
+	        	doUpdate();
+	        	
+	        }
+	  };
+  }
   
   View.OnClickListener getOnClickStartGame(final Button button, final int topicid)  {
 	  
@@ -78,9 +109,13 @@ public class GameListFragement extends Fragment {
 	        }
 	    };
 	}
+  
+  
   public interface OnItemSelectedListener {
       public void OnItemSelected(List<numberOfGames> numberOfGames, int topicId);
-    }
+  }
+  
+
   
   @Override
   public void onAttach(Activity activity) {
@@ -95,10 +130,179 @@ public class GameListFragement extends Fragment {
  
 
   
-  
+  public void doUpdate(){
+		
+		final Handler mHandler = new Handler();
+		if(isOnline()){			
+			new Thread(){				
+				@Override
+				public void run(){
+					
+					newData=getAndWriteData();
+					mHandler.post(new Runnable() {
+						
+						@Override
+						public void run(){
+							if(newData.get("topicid") != null){
+							LayoutParams lp = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
+							Button myButton = new Button(context);
+							myButton.setText(newData.get("topictitle"));
+							myButton.setTextColor(getResources().getColor(R.color.black));							 							
+							ll.addView(myButton, lp);
+							myButton.setOnClickListener(getOnClickStartGame(myButton, Integer.parseInt(newData.get("topicid"))));
+							}
+							pd.dismiss();
+						}
+					});
+				}
+		}.start();
+		}
+	}
+
+	
+	
+	public HashMap<String,String> getAndWriteData(){
+		int lastTopic=1;
+		HashMap<String,String> returnData=new HashMap();
+		MySQLiteHelper db=new MySQLiteHelper(context);
+		lastTopic=db.getLastTopic();
+		
+		
+		
+		try{
+			HttpPost httppost=new HttpPost("http://itfitness-gcm.denkfabrik-entwicklung.de/web/app_dev.php/gcm/update/");
+			HttpClient httpclient=new DefaultHttpClient();
+			List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>();
+	    	nameValuePairs.add(new BasicNameValuePair("topic", ""+lastTopic));
+	    	
+	    	HttpEntity postEntity = new UrlEncodedFormEntity(nameValuePairs);
+	    	httppost.setEntity(postEntity);
+	    	HttpResponse response = httpclient.execute(httppost);        	
+	        HttpEntity entity = response.getEntity();
+	        String result = EntityUtils.toString(entity);
+	        
+	        if (entity != null){
+	        	try {
+					JSONObject json= new JSONObject(result);
+					returnData=writeData(json);
+	        	}catch(JSONException e){
+	        		
+	        	}
+	        }
+	       
+		}catch(ClientProtocolException e){
+			
+		}catch(IOException e){
+			
+		}
+		return returnData;
+	}
+	
+	public HashMap<String,String> writeData(JSONObject jsonDataComplete){
+		HashMap<String,String> writtenData=new HashMap();
+		JSONObject jsonData=null;
+		JSONObject topicData=null;
+		MySQLiteHelper db=new MySQLiteHelper(context);
+		int topicRelease=db.getLastTopic();
+		topicRelease++;
+		 try {
+	    // Getting Array of Questions
+			 jsonData = jsonDataComplete.getJSONObject("questions");
+			 topicData=jsonDataComplete.getJSONObject("topic");
+	} catch (JSONException e) {
+	    e.printStackTrace();
+	}
+		int curId=0;
+		int topicId=0;
+		
+			try{
+				String answerInsertString="INSERT INTO answers SELECT ";		 		
+				long lastInsertId=0;
+				long lastInsertTopicLong=0;
+				int lastInsertTopic=0;
+				
+				lastInsertTopicLong=db.addTopic(new Topic(topicData.getString("text"),topicData.getString("id"),topicRelease));
+				if (lastInsertTopicLong < 0 || lastInsertTopicLong > 9999999) {
+			        throw new IllegalArgumentException
+			            (lastInsertTopicLong + " cannot be cast to int without changing its value.");
+			    }else{
+			    	lastInsertTopic=(int)lastInsertTopicLong;
+			    }
+				writtenData.put("topicid",""+lastInsertTopic);
+				writtenData.put("topictitle",topicData.getString("id"));
+				for (int i=0; i<jsonData.length(); i++){
+				JSONObject sth=jsonData.getJSONObject(""+i+"");
+				Iterator qIterator=sth.keys();
+				
+				
+				while (qIterator.hasNext()){
+					 String key = qIterator.next().toString();
+			         JSONObject j = sth.getJSONObject(key);
+			         JSONObject answers=j.getJSONObject("answers");
+			         	        
+			         
+					if(curId != j.getInt("qid")){
+						String qText=j.getString("qtext");
+						int qMode=j.getInt("qmode");
+						int qAnswers=j.getInt("qanswers");
+						int gameid=j.getInt("gameid");
+						int topic=lastInsertTopic;
+						int sorting=j.getInt("qsort");
+						long tstamp =System.currentTimeMillis();
+						long minutesLong = TimeUnit.MILLISECONDS.toMinutes(tstamp);
+						int minutes=(int)minutesLong;
+						curId=j.getInt("qid");
+						
+						lastInsertId=db.addQuestion(new Question(qText,qMode,qAnswers,gameid,topic,sorting,minutes));
+						
+						 if (lastInsertId < 0 || lastInsertId > 9999999) {
+						        throw new IllegalArgumentException
+						            (lastInsertId + " cannot be cast to int without changing its value.");
+						    }else{
+						    	lastInsertId=(int)lastInsertId;
+						    }
+						     
+					}
+					Iterator aIterator=answers.keys();
+					
+					while(aIterator.hasNext()){
+						String akey = aIterator.next().toString();
+						JSONObject answer=answers.getJSONObject(akey);
+					String atext=answer.getString("atext");
+						int truthvalRaw=answer.getInt("truthval");
+						
+						int gameid=j.getInt("gameid");
+						int topic=lastInsertTopic;
+						int aparent=answer.getInt("aparentid");
+						answerInsertString =answerInsertString +" null AS id,"+lastInsertId+" AS parent,'"+ atext+"' AS text,'"+ truthvalRaw+"' AS truthval,"+gameid+" AS gameid,"+topic+" AS topic UNION SELECT";
+						/*db.addAnswer(new Answer(atext,aparent,truthval));*/
+					}
+					
+				}
+				
+				}
+
+				
+				answerInsertString=answerInsertString.substring(0, answerInsertString.length() - 12);	    				
+				db.addAnswersBulk(answerInsertString);
+				
+			}catch(JSONException e){
+				Log.d("Shite"," "+e);
+			}	
+			
+			return writtenData;
+	}
+	
+	public boolean isOnline() {
+	    ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+	    NetworkInfo netInfo = cm.getActiveNetworkInfo();
+	    if (netInfo != null && netInfo.isConnectedOrConnecting()) {
+	        return true;
+	    }
+	    return false;
+	}
  
-  
-  
+	
   
   
 } 
