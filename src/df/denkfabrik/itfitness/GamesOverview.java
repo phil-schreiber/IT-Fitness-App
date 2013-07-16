@@ -56,14 +56,14 @@ public class GamesOverview extends Activity {
 		getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.window_title);
 		LinearLayout titleImg=(LinearLayout) findViewById(R.id.headerbutton);
 		titleImg.setOnClickListener(homeButton());
-		
+		 ll = (LinearLayout)findViewById(R.id.Buttons);		
 		MySQLiteHelper db = new MySQLiteHelper(this);
 		List<Topic> topicList=db.getAllTopics();
 		 for (Topic tp : topicList) {
 			 Button myButton = new Button(this);
 			 myButton.setText(tp.getTitle());
 
-			 ll = (LinearLayout)findViewById(R.id.Buttons);
+
 			 LayoutParams lp = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
 			 ll.addView(myButton, lp);
 			 myButton.setOnClickListener(getOnClickStartGame(myButton, tp.getID()));

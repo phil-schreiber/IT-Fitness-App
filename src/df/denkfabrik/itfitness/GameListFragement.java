@@ -27,18 +27,21 @@ import android.support.v4.app.Fragment;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.res.Resources;
 
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.os.Handler;
 
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
 public class GameListFragement extends Fragment {
@@ -62,25 +65,54 @@ public class GameListFragement extends Fragment {
     ll = (LinearLayout) view.findViewById(R.id.gamesButtons);
     LayoutParams lp = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
 	 for (Topic tp : topicList) {
+		 FrameLayout buttonFrame=new FrameLayout(context);
+		 
+		 FrameLayout.LayoutParams iconParams = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.WRAP_CONTENT, FrameLayout.LayoutParams.WRAP_CONTENT);	            
+		 iconParams.gravity=3;		 
+		 iconParams.setMargins(convertDpToPixel(10,context),convertDpToPixel(10,context), 0, 0);
+		 LinearLayout icon=new LinearLayout(context);
+		 icon.setBackgroundResource(R.drawable.icon_goon);
+		 icon.setLayoutParams(iconParams);
+		 
 		 Button myButton = new Button(context);
 		 myButton.setText(tp.getTitle());
 		 myButton.setTextColor(getResources().getColor(R.color.black));
 		 
 		
-		 
-		 ll.addView(myButton, lp);
+		 buttonFrame.addView(myButton,lp);
+		 buttonFrame.addView(icon,iconParams);
+		 ll.addView(buttonFrame, lp);
 		 myButton.setOnClickListener(getOnClickStartGame(myButton, tp.getID()));
 	 }
+	 
+	 FrameLayout buttonFrame=new FrameLayout(context);
+	 
+	 FrameLayout.LayoutParams iconParams2 = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.WRAP_CONTENT, FrameLayout.LayoutParams.WRAP_CONTENT);	            
+	 iconParams2.gravity=3;		 
+	 iconParams2.setMargins(convertDpToPixel(10,context),convertDpToPixel(10,context), 0, 0);
+	 LinearLayout icon2=new LinearLayout(context);
+	 icon2.setBackgroundResource(R.drawable.icon_download);
+	 icon2.setLayoutParams(iconParams2); 
 	Button updateButton=new Button(context);
 	LinearLayout updateButtonWrap=(LinearLayout) view.findViewById(R.id.updateButtonWrap);
 	updateButton.setText(getResources().getString(R.string.update));
 	updateButton.setTextColor(getResources().getColor(R.color.black));
-	updateButtonWrap.addView(updateButton,lp);	
+	buttonFrame.addView(updateButton,lp);
+	buttonFrame.addView(icon2,iconParams2);
+	
+	updateButtonWrap.addView(buttonFrame);
 	updateButton.setOnClickListener(triggerUpdate(updateButton));
 	
     return view;
   }
   
+  public  int convertDpToPixel(float dp, Context context){
+	    Resources resources = context.getResources();
+	    DisplayMetrics metrics = resources.getDisplayMetrics();
+	    float px =  dp * (metrics.densityDpi / 160f);
+	    int pxResult=Math.round(px);
+	    return pxResult;
+	}
   View.OnClickListener triggerUpdate(final Button button){
 	  return new View.OnClickListener() {
 	        public void onClick(View v) {
@@ -144,11 +176,22 @@ public class GameListFragement extends Fragment {
 						@Override
 						public void run(){
 							if(newData.get("topicid") != null){
+								FrameLayout buttonFrame=new FrameLayout(context);
+								 
+								 FrameLayout.LayoutParams iconParams = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.WRAP_CONTENT, FrameLayout.LayoutParams.WRAP_CONTENT);	            
+								 iconParams.gravity=3;		 
+								 iconParams.setMargins(convertDpToPixel(10,context),convertDpToPixel(10,context), 0, 0);
+								 LinearLayout icon=new LinearLayout(context);
+								 icon.setBackgroundResource(R.drawable.icon_goon);
+								 icon.setLayoutParams(iconParams);
+								 
 							LayoutParams lp = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
 							Button myButton = new Button(context);
 							myButton.setText(newData.get("topictitle"));
-							myButton.setTextColor(getResources().getColor(R.color.black));							 							
-							ll.addView(myButton, lp);
+							myButton.setTextColor(getResources().getColor(R.color.black));
+							buttonFrame.addView(myButton,lp);
+							buttonFrame.addView(icon,iconParams);
+							ll.addView(buttonFrame, lp);
 							myButton.setOnClickListener(getOnClickStartGame(myButton, Integer.parseInt(newData.get("topicid"))));
 							}
 							pd.dismiss();

@@ -49,6 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             >
+            
     <Button
         android:id="@+id/Button01"
         android:layout_width="fill_parent"
@@ -57,6 +58,18 @@
         android:onClick="gamesOverview"
         android:text="@string/hello"
         android:textSize="22sp" />
+    <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon_start"
+                    
+                    android:gravity="center"
+                    android:layout_gravity="left"                    
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                     android:maxWidth="5dp"
+                      android:maxHeight="5dp"
+                    ></LinearLayout>
     <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -79,6 +92,10 @@
                         />
                 </LinearLayout>
     </FrameLayout>
+    <FrameLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            >
     <Button
         android:id="@+id/Button02"
         android:layout_width="fill_parent"
@@ -87,6 +104,23 @@
         android:onClick="ResumeGame"
         android:text="@string/resume"
         android:textSize="22sp" />
+    <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon_resume"
+                    
+                    android:gravity="center"
+                    android:layout_gravity="left"                    
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                     android:maxWidth="5dp"
+                      android:maxHeight="5dp"
+                    ></LinearLayout>
+    </FrameLayout>
+    <FrameLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            >
     <Button
         android:id="@+id/Button03"
         android:layout_width="fill_parent"
@@ -95,18 +129,22 @@
         android:onClick="ShowStatistics"
         android:text="@string/statistics"
         android:textSize="22sp" />
-     <TextView
-	    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/lblMessage"
-    
-    android:padding="10dp"
-    android:layout_marginTop="10dp"    
-    android:textColor="#fe892a"
-    android:textSize="18sp"
-    android:layout_marginBottom="10dp">
+    <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon_statistics"
+                    
+                    android:gravity="center"
+                    android:layout_gravity="left"                    
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                     android:maxWidth="5dp"
+                      android:maxHeight="5dp"
+                    ></LinearLayout>
+    </FrameLayout>
+     
 	    
-	</TextView>
+	
       
         
   

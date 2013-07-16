@@ -47,14 +47,15 @@
     android:orientation="vertical"
     android:background="#ffffff" ></LinearLayout>
     
-            <Button
-        android:id="@+id/ButtonUpdate"        
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"               
-        android:minHeight="50dp"
-        android:onClick="doUpdate"
-        android:text="@string/update"
-         />
+    <LinearLayout
+        android:id="@+id/updateButtonWrap"    
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#ffffff" ></LinearLayout>
+    
+            
     
     
      
