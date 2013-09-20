@@ -88,7 +88,7 @@ public class GCMIntentService extends GCMBaseIntentService{
         }
 
         try {
-        	HttpPost httppost = new HttpPost("http://itfitness-gcm.denkfabrik-entwicklung.de/web/app_dev.php/gcm/register/");
+        	HttpPost httppost = new HttpPost("http://itfitness-gcm.denkfabrik-entwicklung.de/web/gcm/register/");
         	List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(1);
         	nameValuePairs.add(new BasicNameValuePair("regId", regId));
         	if(possibleEmail !=""){

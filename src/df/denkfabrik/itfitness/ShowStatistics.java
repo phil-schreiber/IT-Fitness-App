@@ -168,7 +168,7 @@ public class ShowStatistics extends Activity{
 					Result resultItem=results.get(numberOfGame.getGameid());
 					topicGameResult.setText("Level "+levelCounter+": "+resultItem.getProcent()+"%");	
 				}else{
-					topicGameResult.setText("Level "+levelCounter+": n/a");
+					topicGameResult.setText("Level "+levelCounter+": noch keins");
 				}
 				RelativeLayout.LayoutParams p=new RelativeLayout.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
 				p.addRule(RelativeLayout.BELOW,lastId);
@@ -188,7 +188,7 @@ public class ShowStatistics extends Activity{
 				q.setMargins(0, 5, 0, 0);
 				q.addRule(RelativeLayout.BELOW,lastId);
 				q.addRule(RelativeLayout.ALIGN_PARENT_RIGHT);
-				benchmark.setText("n/a");
+				benchmark.setText("nicht verfügbar");
 				benchmark.setLayoutParams(q);
 				topicWrap.addView(benchmark);
 				levelCounter++;
@@ -208,7 +208,7 @@ public class ShowStatistics extends Activity{
 	public HashMap getBenchmark(){
 		HashMap<Integer, HashMap<Integer,String>> benchmark= new HashMap<Integer,HashMap<Integer,String>>();
 		 try {
-		HttpPost httppost = new HttpPost("http://itfitness-gcm.denkfabrik-entwicklung.de/web/app_dev.php/gcm/bench/");
+		HttpPost httppost = new HttpPost("http://itfitness-gcm.denkfabrik-entwicklung.de/web/gcm/bench/");
     	
     	 HttpClient httpclient=new DefaultHttpClient();
         // Execute HTTP Post Request

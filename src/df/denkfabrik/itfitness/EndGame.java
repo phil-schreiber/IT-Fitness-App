@@ -126,7 +126,7 @@ public class EndGame extends Activity{
 		
 		
 		 try {
-	        	HttpPost httppost = new HttpPost("http://itfitness-gcm.denkfabrik-entwicklung.de/web/app_dev.php/gcm/upload/");
+	        	HttpPost httppost = new HttpPost("http://itfitness-gcm.denkfabrik-entwicklung.de/web/gcm/upload/");
 	        	List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>();
 	        	nameValuePairs.add(new BasicNameValuePair("regId", anonymousId));
 	        	nameValuePairs.add(new BasicNameValuePair("gameId", ""+GAMEID+""));

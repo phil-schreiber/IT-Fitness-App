@@ -294,12 +294,12 @@ public class MainActivity extends Activity {
 		
 	}
 	
-	@Override
+	/*@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.activity_main, menu);
 		return true;
-	}
+	}*/
 	
 	public void gamesOverview(View arg){
 		if(count>0){
@@ -334,10 +334,19 @@ public class MainActivity extends Activity {
         startActivity(intent);  
 	}
 	
+	
+	
 	public void ShowStatistics(View arg){
 		Intent intent= new Intent(getBaseContext(), ShowStatistics.class);
 		startActivity(intent);
 	}
+	
+	public void AboutGame(View arg){
+		Intent intent= new Intent(getBaseContext(), AboutGame.class);
+		startActivity(intent);
+	}
+	
+	
 	
 	/**
      * Receiving push messages
@@ -384,6 +393,8 @@ public class MainActivity extends Activity {
         }
         super.onDestroy();
     }
+    
+    
 
 }
 

@@ -37,4 +37,7 @@
     <string name="legendLeft"><u>Ihr Ergebnis</u></string>
     <string name="legendRight"><u>Durchschnitt aller Teilnehmer</u></string>
     <string name="levelsTitle">Levels</string>
+    <string name="about">About</string>
+    <string name="aboutTitle">About</string>
+    <string name="aboutText">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</string>
 </resources>

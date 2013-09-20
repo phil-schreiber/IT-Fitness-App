@@ -213,7 +213,7 @@ public class GameListFragement extends Fragment {
 		
 		
 		try{
-			HttpPost httppost=new HttpPost("http://itfitness-gcm.denkfabrik-entwicklung.de/web/app_dev.php/gcm/update/");
+			HttpPost httppost=new HttpPost("http://itfitness-gcm.denkfabrik-entwicklung.de/web/gcm/update/");
 			HttpClient httpclient=new DefaultHttpClient();
 			List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>();
 	    	nameValuePairs.add(new BasicNameValuePair("topic", ""+lastTopic));

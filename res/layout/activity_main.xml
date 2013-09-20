@@ -143,7 +143,19 @@
                     ></LinearLayout>
     </FrameLayout>
      
-	    
+	     <FrameLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            >
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"               
+        android:minHeight="50dp"
+        android:onClick="AboutGame"
+        android:text="@string/about"
+        android:textSize="22sp" />
+    </FrameLayout>
 	
       
         
