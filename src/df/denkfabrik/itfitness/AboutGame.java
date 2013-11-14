@@ -41,7 +41,7 @@ import android.view.View;
 import android.view.ViewGroup.LayoutParams;
 
 
-
+/*Scheiﬂe*/
 
 public class AboutGame extends Activity{
 	
