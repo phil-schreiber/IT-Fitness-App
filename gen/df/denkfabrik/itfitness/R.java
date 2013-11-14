@@ -14,30 +14,24 @@ public final class R {
         public static final int left_slide_out=0x7f040002;
         public static final int right_slide_in=0x7f040003;
     }
-    public static final class animator {
-        public static final int card_flip_left_in=0x7f050000;
-        public static final int card_flip_left_out=0x7f050001;
-        public static final int card_flip_right_in=0x7f050002;
-        public static final int card_flip_right_out=0x7f050003;
-    }
     public static final class attr {
     }
     public static final class color {
-        public static final int black=0x7f060004;
-        public static final int grey=0x7f060000;
-        public static final int lightgreyblue=0x7f060001;
-        public static final int orange=0x7f060002;
-        public static final int white=0x7f060003;
+        public static final int black=0x7f050004;
+        public static final int grey=0x7f050000;
+        public static final int lightgreyblue=0x7f050001;
+        public static final int orange=0x7f050002;
+        public static final int white=0x7f050003;
     }
     public static final class dimen {
-        public static final int smallPaddingBottom=0x7f080007;
-        public static final int smallPaddingLeft=0x7f080004;
-        public static final int smallPaddingRight=0x7f080006;
-        public static final int smallPaddingTop=0x7f080005;
-        public static final int standardPaddingBottom=0x7f080003;
-        public static final int standardPaddingLeft=0x7f080000;
-        public static final int standardPaddingRight=0x7f080002;
-        public static final int standardPaddingTop=0x7f080001;
+        public static final int smallPaddingBottom=0x7f070007;
+        public static final int smallPaddingLeft=0x7f070004;
+        public static final int smallPaddingRight=0x7f070006;
+        public static final int smallPaddingTop=0x7f070005;
+        public static final int standardPaddingBottom=0x7f070003;
+        public static final int standardPaddingLeft=0x7f070000;
+        public static final int standardPaddingRight=0x7f070002;
+        public static final int standardPaddingTop=0x7f070001;
     }
     public static final class drawable {
         public static final int anim_img=0x7f020000;
@@ -47,110 +41,105 @@ public final class R {
         public static final int header=0x7f020004;
         public static final int ic_launcher=0x7f020005;
         public static final int icon=0x7f020006;
-        public static final int icon_download=0x7f020007;
-        public static final int icon_goon=0x7f020008;
-        public static final int icon_resume=0x7f020009;
-        public static final int icon_start=0x7f02000a;
-        public static final int icon_statistics=0x7f02000b;
+        public static final int icon_about=0x7f020007;
+        public static final int icon_download=0x7f020008;
+        public static final int icon_goon=0x7f020009;
+        public static final int icon_resume=0x7f02000a;
+        public static final int icon_start=0x7f02000b;
+        public static final int icon_statistics=0x7f02000c;
     }
     public static final class id {
-        public static final int Button01=0x7f0c0002;
-        public static final int Button02=0x7f0c0005;
-        public static final int Button03=0x7f0c0006;
-        public static final int ButtonUpdate=0x7f0c0010;
-        public static final int Buttons=0x7f0c000f;
-        public static final int awrapper=0x7f0c001b;
-        public static final int container=0x7f0c0001;
-        public static final int detailFragment=0x7f0c0016;
-        public static final int gamesButtons=0x7f0c0013;
-        public static final int header=0x7f0c001f;
-        public static final int headerbutton=0x7f0c001e;
-        public static final int home=0x7f0c000b;
-        public static final int icon_goon_layout=0x7f0c0015;
-        public static final int introText=0x7f0c0000;
-        public static final int levels=0x7f0c0012;
-        public static final int levelsTitle=0x7f0c0011;
-        public static final int listFragment=0x7f0c0017;
-        public static final int mainWrapper=0x7f0c000c;
-        public static final int menu_settings=0x7f0c0020;
-        public static final int percent=0x7f0c0009;
-        public static final int qcontainer=0x7f0c000d;
-        public static final int qtext=0x7f0c001a;
-        public static final int qtitle=0x7f0c0019;
-        public static final int question=0x7f0c0018;
-        public static final int result=0x7f0c0008;
-        public static final int resultTitle=0x7f0c0007;
-        public static final int share=0x7f0c000a;
-        public static final int statisticsTitle=0x7f0c001c;
-        public static final int statisticsWrap=0x7f0c001d;
-        public static final int topicTitle=0x7f0c000e;
-        public static final int updateButtonWrap=0x7f0c0014;
-        public static final int updateCounter=0x7f0c0004;
-        public static final int updateCounterWrapper=0x7f0c0003;
-    }
-    public static final class integer {
-        public static final int card_flip_time_full=0x7f090000;
-        public static final int card_flip_time_half=0x7f090001;
+        public static final int Button01=0x7f0a0001;
+        public static final int Button02=0x7f0a0004;
+        public static final int Button03=0x7f0a0005;
+        public static final int ButtonUpdate=0x7f0a000f;
+        public static final int Buttons=0x7f0a000e;
+        public static final int awrapper=0x7f0a001a;
+        public static final int detailFragment=0x7f0a0015;
+        public static final int gamesButtons=0x7f0a0012;
+        public static final int header=0x7f0a001e;
+        public static final int headerbutton=0x7f0a001d;
+        public static final int home=0x7f0a000a;
+        public static final int icon_goon_layout=0x7f0a0014;
+        public static final int introText=0x7f0a0000;
+        public static final int levels=0x7f0a0011;
+        public static final int levelsTitle=0x7f0a0010;
+        public static final int listFragment=0x7f0a0016;
+        public static final int mainWrapper=0x7f0a000b;
+        public static final int menu_settings=0x7f0a001f;
+        public static final int percent=0x7f0a0008;
+        public static final int qcontainer=0x7f0a000c;
+        public static final int qtext=0x7f0a0019;
+        public static final int qtitle=0x7f0a0018;
+        public static final int question=0x7f0a0017;
+        public static final int result=0x7f0a0007;
+        public static final int resultTitle=0x7f0a0006;
+        public static final int share=0x7f0a0009;
+        public static final int statisticsTitle=0x7f0a001b;
+        public static final int statisticsWrap=0x7f0a001c;
+        public static final int topicTitle=0x7f0a000d;
+        public static final int updateButtonWrap=0x7f0a0013;
+        public static final int updateCounter=0x7f0a0003;
+        public static final int updateCounterWrapper=0x7f0a0002;
     }
     public static final class layout {
         public static final int about=0x7f030000;
-        public static final int activity_activity_card_flip=0x7f030001;
-        public static final int activity_main=0x7f030002;
-        public static final int endgame=0x7f030003;
-        public static final int game=0x7f030004;
-        public static final int game_menu=0x7f030005;
-        public static final int games_levels=0x7f030006;
-        public static final int games_list=0x7f030007;
-        public static final int icon_goon=0x7f030008;
-        public static final int leveldetail_fragment=0x7f030009;
-        public static final int overview_fragment=0x7f03000a;
-        public static final int question=0x7f03000b;
-        public static final int statistics=0x7f03000c;
-        public static final int window_title=0x7f03000d;
+        public static final int activity_main=0x7f030001;
+        public static final int endgame=0x7f030002;
+        public static final int game=0x7f030003;
+        public static final int game_menu=0x7f030004;
+        public static final int games_levels=0x7f030005;
+        public static final int games_list=0x7f030006;
+        public static final int icon_goon=0x7f030007;
+        public static final int leveldetail_fragment=0x7f030008;
+        public static final int overview_fragment=0x7f030009;
+        public static final int question=0x7f03000a;
+        public static final int statistics=0x7f03000b;
+        public static final int window_title=0x7f03000c;
     }
     public static final class menu {
-        public static final int activity_main=0x7f0b0000;
+        public static final int activity_main=0x7f090000;
     }
     public static final class string {
-        public static final int about=0x7f0a0024;
-        public static final int aboutText=0x7f0a0026;
-        public static final int aboutTitle=0x7f0a0025;
-        public static final int app_id=0x7f0a0009;
-        public static final int app_name=0x7f0a0000;
-        public static final int gcm_deleted=0x7f0a0016;
-        public static final int gcm_error=0x7f0a0014;
-        public static final int gcm_message=0x7f0a0013;
-        public static final int gcm_recoverable_error=0x7f0a0015;
-        public static final int gcm_registered=0x7f0a0011;
-        public static final int gcm_unregistered=0x7f0a0012;
-        public static final int goon=0x7f0a0004;
-        public static final int hello=0x7f0a0001;
-        public static final int heureka=0x7f0a0007;
-        public static final int home=0x7f0a000e;
-        public static final int legendLeft=0x7f0a0021;
-        public static final int legendRight=0x7f0a0022;
-        public static final int levels=0x7f0a000d;
-        public static final int levelsTitle=0x7f0a0023;
-        public static final int menu_settings=0x7f0a0005;
-        public static final int news=0x7f0a0002;
-        public static final int options_clear=0x7f0a001e;
-        public static final int options_exit=0x7f0a001f;
-        public static final int options_register=0x7f0a001c;
-        public static final int options_unregister=0x7f0a001d;
-        public static final int resultTitle=0x7f0a0008;
-        public static final int resume=0x7f0a0003;
-        public static final int server_register_error=0x7f0a001a;
-        public static final int server_registered=0x7f0a0018;
-        public static final int server_registering=0x7f0a0017;
-        public static final int server_unregister_error=0x7f0a001b;
-        public static final int server_unregistered=0x7f0a0019;
-        public static final int share=0x7f0a000a;
-        public static final int start_title=0x7f0a0006;
-        public static final int statistics=0x7f0a000f;
-        public static final int statisticsTitle=0x7f0a0010;
-        public static final int subject=0x7f0a000b;
-        public static final int topicTitle=0x7f0a000c;
-        public static final int update=0x7f0a0020;
+        public static final int about=0x7f080024;
+        public static final int aboutText=0x7f080026;
+        public static final int aboutTitle=0x7f080025;
+        public static final int app_id=0x7f080009;
+        public static final int app_name=0x7f080000;
+        public static final int gcm_deleted=0x7f080016;
+        public static final int gcm_error=0x7f080014;
+        public static final int gcm_message=0x7f080013;
+        public static final int gcm_recoverable_error=0x7f080015;
+        public static final int gcm_registered=0x7f080011;
+        public static final int gcm_unregistered=0x7f080012;
+        public static final int goon=0x7f080004;
+        public static final int hello=0x7f080001;
+        public static final int heureka=0x7f080007;
+        public static final int home=0x7f08000e;
+        public static final int legendLeft=0x7f080021;
+        public static final int legendRight=0x7f080022;
+        public static final int levels=0x7f08000d;
+        public static final int levelsTitle=0x7f080023;
+        public static final int menu_settings=0x7f080005;
+        public static final int news=0x7f080002;
+        public static final int options_clear=0x7f08001e;
+        public static final int options_exit=0x7f08001f;
+        public static final int options_register=0x7f08001c;
+        public static final int options_unregister=0x7f08001d;
+        public static final int resultTitle=0x7f080008;
+        public static final int resume=0x7f080003;
+        public static final int server_register_error=0x7f08001a;
+        public static final int server_registered=0x7f080018;
+        public static final int server_registering=0x7f080017;
+        public static final int server_unregister_error=0x7f08001b;
+        public static final int server_unregistered=0x7f080019;
+        public static final int share=0x7f08000a;
+        public static final int start_title=0x7f080006;
+        public static final int statistics=0x7f08000f;
+        public static final int statisticsTitle=0x7f080010;
+        public static final int subject=0x7f08000b;
+        public static final int topicTitle=0x7f08000c;
+        public static final int update=0x7f080020;
     }
     public static final class style {
         /** 
@@ -174,12 +163,12 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070002;
+        public static final int AppBaseTheme=0x7f060002;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070003;
-        public static final int CustomTheme=0x7f070001;
-        public static final int CustomWindowTitleBackground=0x7f070000;
+        public static final int AppTheme=0x7f060003;
+        public static final int CustomTheme=0x7f060001;
+        public static final int CustomWindowTitleBackground=0x7f060000;
     }
 }

@@ -39,6 +39,7 @@ import static df.denkfabrik.itfitness.CommonUtilities.DISPLAY_MESSAGE_ACTION;
 import static df.denkfabrik.itfitness.CommonUtilities.EXTRA_MESSAGE;
 import static df.denkfabrik.itfitness.CommonUtilities.EXTRA_COUNT;
 import static df.denkfabrik.itfitness.GCMIntentService.count;
+import com.testflightapp.lib.TestFlight;
 
 public class MainActivity extends Activity {
 	private static final String TAG_SURVEYS = "questions";
@@ -66,6 +67,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		
 		super.onCreate(savedInstanceState);
+		
 		overridePendingTransition(R.anim.right_slide_in, R.anim.left_slide_out);
 		requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
 		setContentView(R.layout.activity_main);
@@ -74,7 +76,7 @@ public class MainActivity extends Activity {
 		JSONObject topicData=null;
 		lblMessage = (TextView) findViewById(R.id.updateCounter);
 		lblMessageWrap= (LinearLayout) findViewById(R.id.updateCounterWrapper);
-		
+		TestFlight.takeOff(getApplication(), "6a41ad1d-91bd-4174-9d18-f9e0f1cd3478");
 		
         registerReceiver(mHandleMessageReceiver, new IntentFilter(DISPLAY_MESSAGE_ACTION));
         
