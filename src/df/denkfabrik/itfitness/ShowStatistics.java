@@ -218,12 +218,7 @@ public class ShowStatistics extends Activity{
 			
 			statisticsWrap.addView(topicWrap);
 			
-		}
-		
-				
-		
-		
-		
+		}		
 	}
 	
 	public HashMap getBenchmark(){
