@@ -60,7 +60,7 @@ public class GamesOverview extends Activity {
 		MySQLiteHelper db = new MySQLiteHelper(this);
 		List<Topic> topicList=db.getAllTopics();
 		 for (Topic tp : topicList) {
-			 Button myButton = new Button(this);
+			 Button myButton = new CustomButtonView(this);
 			 myButton.setText(tp.getTitle());
 
 
@@ -104,7 +104,7 @@ public class GamesOverview extends Activity {
 		button.setVisibility(View.GONE);
 		int level=1;
 		for(numberOfGames numberOfGame : numberOfGames){
-    		Button myButton = new Button(this);
+    		Button myButton = new CustomButtonView(this);
 			 	myButton.setText("Level "+level);
 			 	LinearLayout ll = (LinearLayout)findViewById(R.id.Buttons);
 				 LayoutParams lp = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);

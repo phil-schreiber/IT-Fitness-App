@@ -17,10 +17,13 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
+        public static final int backbutton=0x7f050006;
         public static final int black=0x7f050004;
+        public static final int cw=0x7f050007;
         public static final int grey=0x7f050000;
         public static final int lightgreyblue=0x7f050001;
         public static final int orange=0x7f050002;
+        public static final int transparent=0x7f050005;
         public static final int white=0x7f050003;
     }
     public static final class dimen {
@@ -35,52 +38,71 @@ public final class R {
     }
     public static final class drawable {
         public static final int anim_img=0x7f020000;
-        public static final int border=0x7f020001;
-        public static final int bubble_counter=0x7f020002;
-        public static final int cw_logo=0x7f020003;
-        public static final int header=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int icon=0x7f020006;
-        public static final int icon_about=0x7f020007;
-        public static final int icon_download=0x7f020008;
-        public static final int icon_goon=0x7f020009;
-        public static final int icon_resume=0x7f02000a;
-        public static final int icon_start=0x7f02000b;
-        public static final int icon_statistics=0x7f02000c;
+        public static final int back=0x7f020001;
+        public static final int back_patch=0x7f020002;
+        public static final int border=0x7f020003;
+        public static final int border_bottom=0x7f020004;
+        public static final int border_boxes=0x7f020005;
+        public static final int border_results=0x7f020006;
+        public static final int bubble_counter=0x7f020007;
+        public static final int checked=0x7f020008;
+        public static final int custom_boxes=0x7f020009;
+        public static final int cw_logo=0x7f02000a;
+        public static final int cwtriangle=0x7f02000b;
+        public static final int goon=0x7f02000c;
+        public static final int goonnew=0x7f02000d;
+        public static final int header=0x7f02000e;
+        public static final int headernew=0x7f02000f;
+        public static final int ic_launcher=0x7f020010;
+        public static final int icon=0x7f020011;
+        public static final int icon_about=0x7f020012;
+        public static final int icon_checked=0x7f020013;
+        public static final int icon_download=0x7f020014;
+        public static final int icon_goon=0x7f020015;
+        public static final int icon_resume=0x7f020016;
+        public static final int icon_start=0x7f020017;
+        public static final int icon_statistics=0x7f020018;
+        public static final int redtriangle=0x7f020019;
+        public static final int triangle=0x7f02001a;
+        public static final int unchecked=0x7f02001b;
     }
     public static final class id {
-        public static final int Button01=0x7f0a0001;
-        public static final int Button02=0x7f0a0004;
-        public static final int Button03=0x7f0a0005;
-        public static final int ButtonUpdate=0x7f0a000f;
-        public static final int Buttons=0x7f0a000e;
-        public static final int awrapper=0x7f0a001a;
-        public static final int detailFragment=0x7f0a0015;
-        public static final int gamesButtons=0x7f0a0012;
-        public static final int header=0x7f0a001e;
-        public static final int headerbutton=0x7f0a001d;
-        public static final int home=0x7f0a000a;
-        public static final int icon_goon_layout=0x7f0a0014;
-        public static final int introText=0x7f0a0000;
-        public static final int levels=0x7f0a0011;
-        public static final int levelsTitle=0x7f0a0010;
-        public static final int listFragment=0x7f0a0016;
-        public static final int mainWrapper=0x7f0a000b;
-        public static final int menu_settings=0x7f0a001f;
-        public static final int percent=0x7f0a0008;
-        public static final int qcontainer=0x7f0a000c;
-        public static final int qtext=0x7f0a0019;
-        public static final int qtitle=0x7f0a0018;
-        public static final int question=0x7f0a0017;
-        public static final int result=0x7f0a0007;
-        public static final int resultTitle=0x7f0a0006;
-        public static final int share=0x7f0a0009;
-        public static final int statisticsTitle=0x7f0a001b;
-        public static final int statisticsWrap=0x7f0a001c;
-        public static final int topicTitle=0x7f0a000d;
-        public static final int updateButtonWrap=0x7f0a0013;
-        public static final int updateCounter=0x7f0a0003;
-        public static final int updateCounterWrapper=0x7f0a0002;
+        public static final int Button01=0x7f0a0002;
+        public static final int Button02=0x7f0a0005;
+        public static final int Button03=0x7f0a0006;
+        public static final int ButtonUpdate=0x7f0a0013;
+        public static final int Buttons=0x7f0a0012;
+        public static final int awrapper=0x7f0a001e;
+        public static final int backButton=0x7f0a0000;
+        public static final int detailFragment=0x7f0a0019;
+        public static final int gamesButtons=0x7f0a0016;
+        public static final int header=0x7f0a0022;
+        public static final int headerbutton=0x7f0a0021;
+        public static final int home=0x7f0a000e;
+        public static final int icon_goon_layout=0x7f0a0018;
+        public static final int introText=0x7f0a0001;
+        public static final int levels=0x7f0a0015;
+        public static final int levelsTitle=0x7f0a0014;
+        public static final int listFragment=0x7f0a001a;
+        public static final int mainWrapper=0x7f0a000f;
+        public static final int menu_settings=0x7f0a0023;
+        public static final int percent=0x7f0a000c;
+        public static final int percentTitle=0x7f0a000b;
+        public static final int qcontainer=0x7f0a0010;
+        public static final int qtext=0x7f0a001d;
+        public static final int qtitle=0x7f0a001c;
+        public static final int question=0x7f0a001b;
+        public static final int result=0x7f0a000a;
+        public static final int resultSubtitle=0x7f0a0009;
+        public static final int resultTitle=0x7f0a0007;
+        public static final int share=0x7f0a000d;
+        public static final int statisticsTitle=0x7f0a001f;
+        public static final int statisticsWrap=0x7f0a0020;
+        public static final int topicLevel=0x7f0a0008;
+        public static final int topicTitle=0x7f0a0011;
+        public static final int updateButtonWrap=0x7f0a0017;
+        public static final int updateCounter=0x7f0a0004;
+        public static final int updateCounterWrapper=0x7f0a0003;
     }
     public static final class layout {
         public static final int about=0x7f030000;
@@ -102,10 +124,11 @@ public final class R {
     }
     public static final class string {
         public static final int about=0x7f080024;
-        public static final int aboutText=0x7f080026;
-        public static final int aboutTitle=0x7f080025;
+        public static final int aboutText=0x7f080028;
+        public static final int aboutTitle=0x7f080027;
         public static final int app_id=0x7f080009;
         public static final int app_name=0x7f080000;
+        public static final int back=0x7f080025;
         public static final int gcm_deleted=0x7f080016;
         public static final int gcm_error=0x7f080014;
         public static final int gcm_message=0x7f080013;
@@ -120,6 +143,7 @@ public final class R {
         public static final int legendRight=0x7f080022;
         public static final int levels=0x7f08000d;
         public static final int levelsTitle=0x7f080023;
+        public static final int menu=0x7f080026;
         public static final int menu_settings=0x7f080005;
         public static final int news=0x7f080002;
         public static final int options_clear=0x7f08001e;

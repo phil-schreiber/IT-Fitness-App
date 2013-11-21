@@ -38,7 +38,7 @@ public class LevelFragment extends Fragment {
 		
 		int level=1;
 		for(numberOfGames numberOfGame : numberOfGames){
-    		Button myButton = new Button(context);
+    		Button myButton = new CustomButtonView(context);
     			 
 			 	myButton.setText("Level "+level);
 			 	

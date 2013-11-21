@@ -5,29 +5,39 @@ import java.util.List;
 
 
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.view.Window;
+import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Button;
 
 
+@SuppressLint("NewApi")
 public class LevelDetail extends Activity {
 	public static final String PREFS_NAME = "MyPrefsFile";
+	public static Context context;
+	public int sdk;
 	@Override
 	public void onCreate(Bundle savedInstanceState){
+		int sdk = android.os.Build.VERSION.SDK_INT;
+		  
 		overridePendingTransition(R.anim.right_slide_in, R.anim.left_slide_out);
-		super.onCreate(savedInstanceState);		              
+		super.onCreate(savedInstanceState);
+		context = getApplication();
 		requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
 		setContentView(R.layout.games_levels);
 		getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.window_title);
@@ -64,15 +74,39 @@ public class LevelDetail extends Activity {
 		
 		int level=1;
 		for(numberOfGames numberOfGame : numberOfGames){
-    		Button myButton = new Button(this);
-			 	myButton.setText("Level "+level);
-			 	
+    		Button myButton = new CustomButtonView(this);
+			 	myButton.setText("»  Schwierigkeitsgrad "+level);
+			 	 if(sdk < android.os.Build.VERSION_CODES.JELLY_BEAN) {
+				     
+				     myButton.setBackgroundDrawable(getResources().getDrawable(R.drawable.border_bottom));
+				 } else {
+				     
+					 myButton.setBackground(getResources().getDrawable(R.drawable.border_bottom));
+				 }
+				 
+				 myButton.setGravity(3);
+				 myButton.setTextSize(20);
+				 LinearLayout.LayoutParams buttonParams = new LinearLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
+				 
+				 buttonParams.gravity=3;
+				 
+				 
+				 				 
+				 myButton.setLayoutParams(buttonParams);
 			 	 
 				 LayoutParams lp = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
 				 ll.addView(myButton, lp);
 				 myButton.setOnClickListener(getOnClickStartLevel(myButton, level, topicid, numberOfGame.getGameid()));
 				 level++;  		
     	}
+	}
+	
+	public  int convertDpToPixel(float dp, Context context){
+	    Resources resources = context.getResources();
+	    DisplayMetrics metrics = resources.getDisplayMetrics();
+	    float px =  dp * (metrics.densityDpi / 160f);
+	    int pxResult=Math.round(px);
+	    return pxResult;
 	}
 
 	View.OnClickListener getOnClickStartLevel(final Button button, final int level, final int topicid, final int gameid)  {
@@ -92,4 +126,7 @@ public class LevelDetail extends Activity {
 	  };
 	}
 	
+	public void goBack(View arg){
+		finish();
+	}
 }

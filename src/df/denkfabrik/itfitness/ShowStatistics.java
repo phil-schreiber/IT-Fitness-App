@@ -29,6 +29,7 @@ import android.util.SparseArray;
 import android.view.View;
 import android.view.Window;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -42,9 +43,9 @@ import android.view.ViewGroup.LayoutParams;
 
 
 
-
+@SuppressLint("NewApi")
 public class ShowStatistics extends Activity{
-	
+	public int sdk;	
 	@Override
 	public void onCreate(Bundle savedInstanceState){
 		overridePendingTransition(R.anim.right_slide_in, R.anim.left_slide_out);
@@ -54,6 +55,7 @@ public class ShowStatistics extends Activity{
 		getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.window_title);
 		ImageView titleImg=(ImageView) findViewById(R.id.header);
 		titleImg.setOnClickListener(homeButton());
+		int sdk = android.os.Build.VERSION.SDK_INT;
 		final Handler mHandler = new Handler();
 		if(isOnline()){
 			new Thread(new Runnable(){
@@ -113,17 +115,18 @@ public class ShowStatistics extends Activity{
 			
 			TextView topicTitle=new TextView(this);
 			topicTitle.setText(topic.getTitle());
-			topicTitle.setBackgroundColor(getResources().getColor(R.color.orange));
+			/*topicTitle.setBackgroundColor(getResources().getColor(R.color.orange));*/
 			
 			topicTitle.setPadding(paddingLeft,paddingTop,paddingRight,paddingBottom);
 			topicTitle.setLayoutParams(new RelativeLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));
-			topicTitle.setTextColor(getResources().getColor(R.color.white));
+			topicTitle.setTextColor(getResources().getColor(R.color.black));
 			topicTitle.setTextSize(20);
 			
 			String titleId="101"+topicId;
 			String legendLeftId="102"+topicId;
-			int lastId=Integer.parseInt(legendLeftId);
 			
+			int lastId=Integer.parseInt(legendLeftId);
+			int lastWrapID=lastId;
 			topicTitle.setId(Integer.parseInt(titleId));
 			topicWrap.addView(topicTitle);
 			
@@ -134,11 +137,11 @@ public class ShowStatistics extends Activity{
 			legendLeft.setTextColor(getResources().getColor(R.color.grey));
 			legendLeft.setPadding(paddingLeft,0,0,0);
 			legendLeft.setLayoutParams(r);			
-			legendLeft.setId(Integer.parseInt(legendLeftId));
+			topicTitle.setId(Integer.parseInt(legendLeftId));
 			
 			
 			
-			topicWrap.addView(legendLeft);
+			/*topicWrap.addView(legendLeft);*/
 			
 			TextView legendRight=new TextView(this);
 			RelativeLayout.LayoutParams s=new RelativeLayout.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
@@ -149,7 +152,7 @@ public class ShowStatistics extends Activity{
 			legendRight.setText(getResources().getString(R.string.legendRight));
 			legendRight.setTextColor(getResources().getColor(R.color.grey));
 			legendRight.setLayoutParams(s);
-			topicWrap.addView(legendRight);			
+			/*topicWrap.addView(legendRight);*/			
 			
 			List<numberOfGames> numberOfGames= db.getNumberOfGames(topicId);
 			List<Session> sessions=db.getLastSessions(topicId);
@@ -162,7 +165,17 @@ public class ShowStatistics extends Activity{
 			}
 			int levelCounter=1;
 			for (numberOfGames numberOfGame : numberOfGames){
-				TextView topicGameResult=new TextView(this);
+				RelativeLayout resultWrap= new RelativeLayout(this);
+				RelativeLayout.LayoutParams resultWrapParams=new RelativeLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
+				if(sdk < android.os.Build.VERSION_CODES.JELLY_BEAN) {
+					resultWrap.setBackgroundDrawable(getResources().getDrawable(R.drawable.border_results));
+					
+	        	 } else {
+	        	     
+	        		 resultWrap.setBackground(getResources().getDrawable(R.drawable.border_results));
+	        		 
+	        	 }
+				TextView topicGameResult=new NativelyCustomTextView(this);
 				if(results.get(numberOfGame.getGameid()) != null){
 					
 					Result resultItem=results.get(numberOfGame.getGameid());
@@ -174,25 +187,33 @@ public class ShowStatistics extends Activity{
 				p.addRule(RelativeLayout.BELOW,lastId);
 				topicGameResult.setLayoutParams(p);
 				
-				topicGameResult.setTextColor(getResources().getColor(R.color.grey));
+				topicGameResult.setTextColor(getResources().getColor(R.color.black));
+			
 				
-				topicGameResult.setPadding(paddingLeft,paddingTopSmall,paddingBottomSmall,paddingRightSmall);
-				topicWrap.addView(topicGameResult);
+				
+				topicGameResult.setPadding(0,paddingTopSmall,paddingBottomSmall,paddingRightSmall);
+				resultWrap.addView(topicGameResult);
 				
 				RelativeLayout.LayoutParams q=new RelativeLayout.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);								
-				TextView benchmark=new TextView(this);								
-				benchmark.setTextColor(getResources().getColor(R.color.grey));
+				TextView benchmark=new NativelyCustomTextView(this);								
+				benchmark.setTextColor(getResources().getColor(R.color.black));
 				String composeID= ""+topicId+""+numberOfGame.getGameid();
 				int id=Integer.parseInt(composeID);
+				int resultId=Integer.parseInt(""+topicId+""+levelCounter+""+numberOfGame.getGameid());
 				benchmark.setId(id);
+				resultWrap.setId(resultId);
 				q.setMargins(0, 5, 0, 0);
 				q.addRule(RelativeLayout.BELOW,lastId);
 				q.addRule(RelativeLayout.ALIGN_PARENT_RIGHT);
-				benchmark.setText("nicht verfügbar");
+				benchmark.setText("nicht verfügbar");				
 				benchmark.setLayoutParams(q);
-				topicWrap.addView(benchmark);
+				resultWrapParams.addRule(RelativeLayout.BELOW,lastWrapID);
+				resultWrap.addView(benchmark);
+				resultWrapParams.setMargins(10, 0, 10, 0);
+				topicWrap.addView(resultWrap,resultWrapParams);
 				levelCounter++;
 				lastId=id;
+				lastWrapID=resultId;
 			}
 			
 			statisticsWrap.addView(topicWrap);
@@ -270,6 +291,12 @@ public class ShowStatistics extends Activity{
 	    		startActivity(intent);
 	        }
 		};
+	}
+	
+	public void allNew(View arg){
+		Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+		intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+		startActivity(intent);
 	}
 	
 }

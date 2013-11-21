@@ -1,34 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="35dip"
-    android:gravity="center_vertical"    
-    android:background="@drawable/border"
-    android:id="@+id/headerbutton"    
+    android:layout_height="wrap_content"  
+    android:background="#e2001a"
+    android:id="@+id/headerbutton"  
+     
     >    
         <ImageView
         android:id="@+id/header"        
-        android:src="@drawable/header"
+        android:src="@drawable/headernew"
+        android:scaleType="fitXY"                
+        android:background="#e2001a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#ffffff"/>
-        <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:gravity="right"
+        android:adjustViewBounds="true"
+          
+        android:gravity="left" />
         
-         >
-        <ImageView
-        
-        android:src="@drawable/cw_logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:background="#ffffff"/>
-        </LinearLayout>
     
             
     

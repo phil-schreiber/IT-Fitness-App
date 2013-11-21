@@ -92,7 +92,9 @@ public class GamesOverviewFragment extends FragmentActivity implements GameListF
 	        }
 		};
 	}
-  
+  public void goBack(View arg){
+		finish();
+	}
   
   
 

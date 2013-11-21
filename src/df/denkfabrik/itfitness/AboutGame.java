@@ -24,6 +24,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.os.Handler;
+import android.text.Html;
 import android.util.Log;
 import android.util.SparseArray;
 import android.view.View;
@@ -41,7 +42,6 @@ import android.view.View;
 import android.view.ViewGroup.LayoutParams;
 
 
-/*Scheiﬂe*/
 
 public class AboutGame extends Activity{
 	
@@ -54,6 +54,9 @@ public class AboutGame extends Activity{
 		getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.window_title);
 		ImageView titleImg=(ImageView) findViewById(R.id.header);
 		titleImg.setOnClickListener(homeButton());
+		
+		TextView aboutText=(TextView) findViewById(R.id.introText);
+		aboutText.setText(Html.fromHtml(getResources().getString(R.string.aboutText)));
 		}
 	
 	View.OnClickListener homeButton(){
@@ -65,4 +68,8 @@ public class AboutGame extends Activity{
 	        }
 		};
 	}
+	
+	 public void goBack(View arg){
+			finish();
+		}
 }

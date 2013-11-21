@@ -27,6 +27,7 @@ import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.telephony.TelephonyManager;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.ViewGroup.LayoutParams;
@@ -81,14 +82,23 @@ public class EndGame extends Activity{
 		Topic topic=db.getTopic(TOPIC_ID);
 		TOPIC=topic.getTitle();
 		TextView resultTitle=(TextView)findViewById(R.id.resultTitle);
-		resultTitle.setText(getText(R.string.resultTitle)+" "+TOPIC+" - Level "+LEVEL);
+		TextView topicLevel=(TextView)findViewById(R.id.topicLevel);		
+		resultTitle.setText(getText(R.string.resultTitle));
+		topicLevel.setText(TOPIC+" - "+LEVEL);
+		
 		ACHIEVED_POINTS=result.getAchievedpoints();
 		MAX_POINTS=result.getMaxpoints();
 		TextView pointsView=(TextView)findViewById(R.id.result);
-		pointsView.setText("Erreichte Punkte:\r\n "+ACHIEVED_POINTS+" von "+MAX_POINTS+"");
+		TextView resultSubtitle=(TextView)findViewById(R.id.resultSubtitle);
+		resultSubtitle.setText("Erreichte Punkte:");
+		pointsView.setText(ACHIEVED_POINTS+" von "+MAX_POINTS+"");
+		
 		TextView percentView=(TextView)findViewById(R.id.percent);
+		TextView percentTitle=(TextView)findViewById(R.id.percentTitle);
+		
 		RESULT_PERCENT=result.getProcent();
-		percentView.setText("In Prozent:\r\n"+RESULT_PERCENT+" %");
+		percentTitle.setText("In Prozent:");
+		percentView.setText(RESULT_PERCENT+" %");
 		
 		if(isOnline()){
 			new Thread(new Runnable() {
@@ -188,5 +198,24 @@ public class EndGame extends Activity{
 	    }
 	    return false;
 	}
+	
+	
+	 @Override
+     public boolean onKeyDown(int keyCode, KeyEvent event)  {
+         if (keyCode == KeyEvent.KEYCODE_BACK  && event.getRepeatCount() == 0) {             
+             onBackPressed();
+         }
+
+         return super.onKeyDown(keyCode, event);
+     }
+
+     public void onBackPressed() {
+    	 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+ 		intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+ 		startActivity(intent);
+
+         return;
+     } 
+	
 	
 }

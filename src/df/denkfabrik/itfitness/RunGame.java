@@ -23,6 +23,8 @@ import android.view.ViewGroup.LayoutParams;
 import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
+import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -33,6 +35,7 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 
+@SuppressLint("NewApi")
 public class RunGame extends Activity{
 	private int CURRENT_QUESTION = 1;
 	private int CURRENT_LEVEL=0;
@@ -41,7 +44,8 @@ public class RunGame extends Activity{
 	private int GAMEID=0;
 	private long lastInsertedSession=0;
 	private int MAX_QUESTIONS=0;
-	public static final String PREFS_NAME = "MyPrefsFile";/*I love copy and paste*/	
+	public static final String PREFS_NAME = "MyPrefsFile";/*I love copy and paste*/
+	public int sdk;
 	Map<Integer, Boolean> answerItemsTruthvals = new HashMap<Integer,Boolean>();
 	
 	
@@ -50,6 +54,7 @@ public class RunGame extends Activity{
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState){
+		int sdk = android.os.Build.VERSION.SDK_INT;
 		overridePendingTransition(R.anim.right_slide_in, R.anim.left_slide_out);
 		Bundle extras = getIntent().getExtras();
 		super.onCreate(savedInstanceState);		              
@@ -256,16 +261,26 @@ public class RunGame extends Activity{
 		boolean oddeven=false;
         for (Answer answer : answers) {        	
         	if(firstQuestion.getMode()==0){
-        	CheckBox ch = new CheckBox(this);        	
+        	CheckBox ch = new CustomCheckboxView(this);        	
         	ch.setText(answer.getText());
-        	ch.setTextColor(getResources().getColor(R.color.grey));
+        	ch.setTextColor(getResources().getColor(R.color.black));
         	ch.setId(answer.getID());
         	
-        	if((answers.size()%2==0) && oddeven){
+        	
+        	/*if((answers.size()%2==0) && oddeven){
         		ch.setBackgroundColor(getResources().getColor(R.color.lightgreyblue));
         	}else if((answers.size()%2!=0) && !oddeven){
         		ch.setBackgroundColor(getResources().getColor(R.color.lightgreyblue));
-        	}
+        	}*/
+        	
+        	 if(sdk < android.os.Build.VERSION_CODES.JELLY_BEAN) {
+			     
+			     ch.setBackgroundDrawable(getResources().getDrawable(R.drawable.border_boxes));
+			 } else {
+			     
+				 ch.setBackground(getResources().getDrawable(R.drawable.border_boxes));
+			 }
+        	 ch.setButtonDrawable(R.drawable.custom_boxes);
         	if(oddeven){
         		oddeven=false;
         	}else{
@@ -274,17 +289,42 @@ public class RunGame extends Activity{
         	answerItemsTruthvals.put(answer.getID(),answer.getTruthval());
             llq.addView(ch,lp);
         	}else{
-        	RadioButton ch=new RadioButton(this);
+        	RadioButton ch=new CustomRadioView(this);
+        	ch.setOnCheckedChangeListener(new OnCheckedChangeListener()
+        	{
+        	    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked)
+        	    {
+        	        if ( isChecked )
+        	        {
+        	        	buttonView.setTextColor(getResources().getColor(R.color.cw));
+        	        }else{
+        	        	buttonView.setTextColor(getResources().getColor(R.color.black));
+        	        }
+
+        	    }
+        	});
         	String answerText=answer.getText();
-        	ch.setTextColor(getResources().getColor(R.color.grey));
+        	ch.setTextColor(getResources().getColor(R.color.black));
         	ch.setText(answerText);  
         	ch.setId(answer.getID());
-        	ch.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));
-        	if((answers.size()%2==0) && oddeven){
+        	LayoutParams btParams=new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
+        	
+        	ch.setLayoutParams(btParams);
+        	
+        	/*if((answers.size()%2==0) && oddeven){
         		ch.setBackgroundColor(getResources().getColor(R.color.lightgreyblue));
         	}else if((answers.size()%2!=0) && !oddeven){
         		ch.setBackgroundColor(getResources().getColor(R.color.lightgreyblue));
-        	}
+        	}*/
+        	if(sdk < android.os.Build.VERSION_CODES.JELLY_BEAN) {
+			     
+			     ch.setBackgroundDrawable(getResources().getDrawable(R.drawable.border_boxes));
+			 } else {
+			     
+				 ch.setBackground(getResources().getDrawable(R.drawable.border_boxes));
+			 }
+        	
+        	ch.setButtonDrawable(R.drawable.custom_boxes);
         	if(oddeven){
         		oddeven=false;
         	}else{
@@ -339,5 +379,9 @@ public class RunGame extends Activity{
     	
         startActivity(intent);   
 	}
+	
+	 public void goBack(View arg){
+			finish();
+		}
 	
 }
