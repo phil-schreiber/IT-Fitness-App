@@ -123,47 +123,48 @@ public final class R {
         public static final int activity_main=0x7f090000;
     }
     public static final class string {
-        public static final int about=0x7f080024;
-        public static final int aboutText=0x7f080028;
-        public static final int aboutTitle=0x7f080027;
-        public static final int app_id=0x7f080009;
+        public static final int about=0x7f080025;
+        public static final int aboutText=0x7f080029;
+        public static final int aboutTitle=0x7f080028;
+        public static final int app_id=0x7f08000a;
         public static final int app_name=0x7f080000;
-        public static final int back=0x7f080025;
-        public static final int gcm_deleted=0x7f080016;
-        public static final int gcm_error=0x7f080014;
-        public static final int gcm_message=0x7f080013;
-        public static final int gcm_recoverable_error=0x7f080015;
-        public static final int gcm_registered=0x7f080011;
-        public static final int gcm_unregistered=0x7f080012;
-        public static final int goon=0x7f080004;
-        public static final int hello=0x7f080001;
-        public static final int heureka=0x7f080007;
-        public static final int home=0x7f08000e;
-        public static final int legendLeft=0x7f080021;
-        public static final int legendRight=0x7f080022;
-        public static final int levels=0x7f08000d;
-        public static final int levelsTitle=0x7f080023;
-        public static final int menu=0x7f080026;
-        public static final int menu_settings=0x7f080005;
-        public static final int news=0x7f080002;
-        public static final int options_clear=0x7f08001e;
-        public static final int options_exit=0x7f08001f;
-        public static final int options_register=0x7f08001c;
-        public static final int options_unregister=0x7f08001d;
-        public static final int resultTitle=0x7f080008;
-        public static final int resume=0x7f080003;
-        public static final int server_register_error=0x7f08001a;
-        public static final int server_registered=0x7f080018;
-        public static final int server_registering=0x7f080017;
-        public static final int server_unregister_error=0x7f08001b;
-        public static final int server_unregistered=0x7f080019;
-        public static final int share=0x7f08000a;
-        public static final int start_title=0x7f080006;
-        public static final int statistics=0x7f08000f;
-        public static final int statisticsTitle=0x7f080010;
-        public static final int subject=0x7f08000b;
-        public static final int topicTitle=0x7f08000c;
-        public static final int update=0x7f080020;
+        public static final int back=0x7f080026;
+        public static final int gcm_deleted=0x7f080017;
+        public static final int gcm_error=0x7f080015;
+        public static final int gcm_message=0x7f080014;
+        public static final int gcm_recoverable_error=0x7f080016;
+        public static final int gcm_registered=0x7f080012;
+        public static final int gcm_unregistered=0x7f080013;
+        public static final int goon=0x7f080005;
+        public static final int hello=0x7f080002;
+        public static final int heureka=0x7f080008;
+        public static final int home=0x7f08000f;
+        public static final int legendLeft=0x7f080022;
+        public static final int legendRight=0x7f080023;
+        public static final int levels=0x7f08000e;
+        public static final int levelsTitle=0x7f080024;
+        public static final int menu=0x7f080027;
+        public static final int menu_settings=0x7f080006;
+        public static final int news=0x7f080003;
+        public static final int nullu=0x7f080001;
+        public static final int options_clear=0x7f08001f;
+        public static final int options_exit=0x7f080020;
+        public static final int options_register=0x7f08001d;
+        public static final int options_unregister=0x7f08001e;
+        public static final int resultTitle=0x7f080009;
+        public static final int resume=0x7f080004;
+        public static final int server_register_error=0x7f08001b;
+        public static final int server_registered=0x7f080019;
+        public static final int server_registering=0x7f080018;
+        public static final int server_unregister_error=0x7f08001c;
+        public static final int server_unregistered=0x7f08001a;
+        public static final int share=0x7f08000b;
+        public static final int start_title=0x7f080007;
+        public static final int statistics=0x7f080010;
+        public static final int statisticsTitle=0x7f080011;
+        public static final int subject=0x7f08000c;
+        public static final int topicTitle=0x7f08000d;
+        public static final int update=0x7f080021;
     }
     public static final class style {
         /** 
@@ -189,7 +190,6 @@ public final class R {
          */
         public static final int AppBaseTheme=0x7f060002;
         /**  Application theme. 
- All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f060003;
         public static final int CustomTheme=0x7f060001;

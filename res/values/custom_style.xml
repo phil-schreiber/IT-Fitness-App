@@ -5,6 +5,7 @@
  
     <style name="CustomTheme" parent="android:Theme">
         <item name="android:windowTitleSize">64dp</item>
+        <item name="android:textColor">@color/cw</item>
         <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
     </style>
 </resources>

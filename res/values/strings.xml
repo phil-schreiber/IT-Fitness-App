@@ -2,6 +2,7 @@
 <resources>
 
     <string name="app_name">IT Fitness</string>
+    <string name="nullu"> </string>
     <string name="hello">»  Starten</string>
     <string name="news">Neuigkeiten</string>
     <string name="resume">»  Spiel fortsetzen</string>
