@@ -261,7 +261,20 @@ public class RunGame extends Activity{
 		boolean oddeven=false;
         for (Answer answer : answers) {        	
         	if(firstQuestion.getMode()==0){
-        	CheckBox ch = new CustomCheckboxView(this);        	
+        	CheckBox ch = new CustomCheckboxView(this);      
+        	ch.setOnCheckedChangeListener(new OnCheckedChangeListener()
+        	{
+        	    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked)
+        	    {
+        	        if ( isChecked )
+        	        {
+        	        	buttonView.setTextColor(getResources().getColor(R.color.cw));
+        	        }else{
+        	        	buttonView.setTextColor(getResources().getColor(R.color.black));
+        	        }
+
+        	    }
+        	});
         	ch.setText(answer.getText());
         	ch.setTextColor(getResources().getColor(R.color.black));
         	ch.setId(answer.getID());
