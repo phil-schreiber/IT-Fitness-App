@@ -103,6 +103,7 @@ public class GCMIntentService extends GCMBaseIntentService{
             HttpResponse response = httpclient.execute(httppost);
             HttpEntity entity = response.getEntity();
             String result = EntityUtils.toString(entity);
+            Log.d("result",result);
             
             
         } catch (ClientProtocolException e) {

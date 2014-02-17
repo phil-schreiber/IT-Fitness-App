@@ -52,9 +52,13 @@ public class LevelDetail extends Activity {
 		
 		Bundle extras = getIntent().getExtras();
 		int topicId=extras.getInt("topicId");
+		String topicTitle = extras.getString("topicTitle");
+		BoldCustomTextView ll = (BoldCustomTextView) findViewById(R.id.levelsTopic);
+	 	ll.setText(topicTitle);
+		
 		MySQLiteHelper db=new MySQLiteHelper(this);		
 		List numberOfGames=db.getNumberOfGames(topicId);
-		setLevels(numberOfGames,topicId);
+		setLevels(numberOfGames,topicId,topicTitle);
 		
 	}
 	View.OnClickListener homeButton(){
@@ -66,7 +70,7 @@ public class LevelDetail extends Activity {
 	        }
 		};
 	}
-	public void setLevels(List<numberOfGames> numberOfGames, int topicid){
+	public void setLevels(List<numberOfGames> numberOfGames, int topicid, String topicTitle){
 		
 		
 		LinearLayout ll = (LinearLayout) findViewById(R.id.levels);
@@ -96,7 +100,7 @@ public class LevelDetail extends Activity {
 			 	 
 				 LayoutParams lp = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
 				 ll.addView(myButton, lp);
-				 myButton.setOnClickListener(getOnClickStartLevel(myButton, level, topicid, numberOfGame.getGameid()));
+				 myButton.setOnClickListener(getOnClickStartLevel(myButton, level, topicid, numberOfGame.getGameid(),topicTitle));
 				 level++;  		
     	}
 	}
@@ -109,7 +113,7 @@ public class LevelDetail extends Activity {
 	    return pxResult;
 	}
 
-	View.OnClickListener getOnClickStartLevel(final Button button, final int level, final int topicid, final int gameid)  {
+	View.OnClickListener getOnClickStartLevel(final Button button, final int level, final int topicid, final int gameid, final String topictitle)  {
 		  return new View.OnClickListener() {
 	      public void onClick(View v) {
 	      	SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
@@ -121,6 +125,7 @@ public class LevelDetail extends Activity {
 	      	intent.putExtra("topic",topicid);
 	      	intent.putExtra("level",level);
 	      	intent.putExtra("gameid",gameid);	        	
+	      	intent.putExtra("topictitle", topictitle);
 	          startActivity(intent);   
 	      }
 	  };

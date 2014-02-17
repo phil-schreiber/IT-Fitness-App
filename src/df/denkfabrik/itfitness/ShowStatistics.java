@@ -164,6 +164,8 @@ public class ShowStatistics extends Activity{
 				
 			}
 			int levelCounter=1;
+			int sumPercent=0;
+			boolean allAnswered=true;
 			for (numberOfGames numberOfGame : numberOfGames){
 				RelativeLayout resultWrap= new RelativeLayout(this);
 				RelativeLayout.LayoutParams resultWrapParams=new RelativeLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
@@ -179,9 +181,11 @@ public class ShowStatistics extends Activity{
 				if(results.get(numberOfGame.getGameid()) != null){
 					
 					Result resultItem=results.get(numberOfGame.getGameid());
+					sumPercent=sumPercent+resultItem.getProcent();
 					topicGameResult.setText("Level "+levelCounter+": "+resultItem.getProcent()+"%");	
 				}else{
 					topicGameResult.setText("Level "+levelCounter+": noch keins");
+					allAnswered=false;
 				}
 				RelativeLayout.LayoutParams p=new RelativeLayout.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
 				p.addRule(RelativeLayout.BELOW,lastId);
@@ -216,6 +220,44 @@ public class ShowStatistics extends Activity{
 				lastWrapID=resultId;
 			}
 			
+			if(allAnswered){
+				RelativeLayout resultWrap= new RelativeLayout(this);
+				RelativeLayout.LayoutParams resultWrapParams=new RelativeLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
+				/*Hier muesste de Gesamtwert hin*/
+				float allVal=(float)sumPercent/levelCounter;
+				TextView topicGameResultAll=new NativelyCustomTextView(this);
+				topicGameResultAll.setText("Gesamt: "+allVal);
+				RelativeLayout.LayoutParams p=new RelativeLayout.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
+				p.addRule(RelativeLayout.BELOW,lastId);
+				topicGameResultAll.setLayoutParams(p);
+				
+				topicGameResultAll.setTextColor(getResources().getColor(R.color.black));
+			
+				
+				
+				topicGameResultAll.setPadding(0,paddingTopSmall,paddingBottomSmall,paddingRightSmall);
+				resultWrap.addView(topicGameResultAll);
+				
+				RelativeLayout.LayoutParams q=new RelativeLayout.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);								
+				TextView benchmark=new NativelyCustomTextView(this);								
+				benchmark.setTextColor(getResources().getColor(R.color.black));
+				String composeID= ""+topicId+""+0;
+				int id=Integer.parseInt(composeID);
+				int resultId=Integer.parseInt(""+topicId+""+levelCounter+""+0);
+				benchmark.setId(id);
+				resultWrap.setId(resultId);
+				q.setMargins(0, 5, 0, 0);
+				q.addRule(RelativeLayout.BELOW,lastId);
+				q.addRule(RelativeLayout.ALIGN_PARENT_RIGHT);
+				benchmark.setText("nicht verfügbar");				
+				benchmark.setLayoutParams(q);
+				resultWrapParams.addRule(RelativeLayout.BELOW,lastWrapID);
+				resultWrap.addView(benchmark);
+				resultWrapParams.setMargins(10, 0, 10, 0);
+				topicWrap.addView(resultWrap,resultWrapParams);
+			}
+			
+			
 			statisticsWrap.addView(topicWrap);
 			
 		}		
@@ -245,7 +287,11 @@ public class ShowStatistics extends Activity{
 		            HashMap<Integer,String> gameBenches=new HashMap<Integer,String>();
 		            while(games.hasNext()){		           	 
 		            	String gameId=(String)games.next();
-		            	int game=Integer.parseInt(gameId);		            	
+		            	int game=0;
+		            	
+		            	if(!gameId.equals("all") ){		            		
+		            	 game=Integer.parseInt(gameId);
+		            	}
 		            	String bench= benchmarksJSON.getString(gameId);		            	
 		            	gameBenches.put(game, bench);
 		            }

@@ -107,7 +107,7 @@ public class GameListFragement extends Fragment {
 		 buttonFrame.addView(myButton,lp);
 		 /*buttonFrame.addView(icon,iconParams);*/
 		 ll.addView(buttonFrame, lp);
-		 myButton.setOnClickListener(getOnClickStartGame(myButton, tp.getID()));
+		 myButton.setOnClickListener(getOnClickStartGame(myButton, tp.getID(),tp.getTitle()));
 	 }
 	 
 	
@@ -173,7 +173,7 @@ public class GameListFragement extends Fragment {
 	  };
   }
   
-  View.OnClickListener getOnClickStartGame(final Button button, final int topicid)  {
+  View.OnClickListener getOnClickStartGame(final Button button, final int topicid, final String topictitle)  {
 	  
 		MySQLiteHelper db=new MySQLiteHelper(context);		
 		final List numberOfGames=db.getNumberOfGames(topicid);
@@ -181,14 +181,14 @@ public class GameListFragement extends Fragment {
 	        public void onClick(View v) {
 	        		        	
 	        	
-	        	listener.OnItemSelected(numberOfGames,topicid);
+	        	listener.OnItemSelected(numberOfGames,topicid,topictitle);
 	        }
 	    };
 	}
   
   
   public interface OnItemSelectedListener {
-      public void OnItemSelected(List<numberOfGames> numberOfGames, int topicId);
+      public void OnItemSelected(List<numberOfGames> numberOfGames, int topicId, String topictitle);
   }
   
 
@@ -306,7 +306,7 @@ public class GameListFragement extends Fragment {
 							 updateButtonWrap.removeAllViews();
 							 
 							ll.addView(buttonFrame, lp);
-							myButton.setOnClickListener(getOnClickStartGame(myButton, Integer.parseInt(newData.get("topicid"))));
+							myButton.setOnClickListener(getOnClickStartGame(myButton, Integer.parseInt(newData.get("topicid")), newData.get("topictitle")));
 							}
 							pd.dismiss();
 							
@@ -343,6 +343,7 @@ public class GameListFragement extends Fragment {
 	        if (entity != null){
 	        	try {
 					JSONObject json= new JSONObject(result);
+					
 					returnData=writeData(json);
 	        	}catch(JSONException e){
 	        		
@@ -358,11 +359,13 @@ public class GameListFragement extends Fragment {
 	}
 	
 	public HashMap<String,String> writeData(JSONObject jsonDataComplete){
+		
 		HashMap<String,String> writtenData=new HashMap();
 		JSONObject jsonData=null;
 		JSONObject topicData=null;
 		MySQLiteHelper db=new MySQLiteHelper(context);
 		int topicRelease=db.getLastTopic();
+		
 		topicRelease++;
 		 try {
 	    // Getting Array of Questions

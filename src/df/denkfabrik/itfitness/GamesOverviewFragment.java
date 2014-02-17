@@ -65,14 +65,15 @@ public class GamesOverviewFragment extends FragmentActivity implements GameListF
     // it, not needed for this tutorial
 
   @Override
-  public void OnItemSelected(List<numberOfGames> numberOfGames, int topicId) {
+  public void OnItemSelected(List<numberOfGames> numberOfGames, int topicId, String topictitle) {
     LevelFragment fragment =(LevelFragment) getSupportFragmentManager().findFragmentById(R.id.detailFragment);
         if (fragment != null && fragment.isInLayout()) {
-          fragment.setLevels(numberOfGames,topicId);
+          fragment.setLevels(numberOfGames,topicId,topictitle);
+          
         } else{
         	Intent intent = new Intent(getApplicationContext(), LevelDetail.class);        		
         		intent.putExtra("topicId", topicId);
-        		
+        		intent.putExtra("topicTitle", topictitle);
         		startActivity(intent);
         }
   }

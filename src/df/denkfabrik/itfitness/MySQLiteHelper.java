@@ -2,6 +2,7 @@ package df.denkfabrik.itfitness;
 
 import android.content.Context;
 
+import java.io.File;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.List;
@@ -65,13 +66,14 @@ public class MySQLiteHelper extends SQLiteOpenHelper{
     private static final String SESSIONS_TSTAMP ="tstamp";
     
     
+    private static Context currentContext;
     
     
-    private static final String DB_FULL_PATH = "/data/data/df.denkfabrik.itfitness/databases/gamesManager.db";
     
  
     public MySQLiteHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
+        currentContext=context;
     }
  
     // Creating Tables
@@ -102,7 +104,7 @@ public class MySQLiteHelper extends SQLiteOpenHelper{
         		+ SESSIONS_ID + " INTEGER PRIMARY KEY," + SESSIONS_GAMEID + " INTEGER,"+SESSIONS_TOPIC+" INTEGER ," + SESSIONS_CRTIME + " INTEGER,"
         		+ SESSIONS_TSTAMP + " INTEGER)";
         db.execSQL(CREATE_SESSIONS_TABLE);
-        	
+        
         
     }
  
@@ -401,9 +403,11 @@ public List<Session> getLastSessions(int topicid){
  * @return true if it exists, false if it doesn't
  */
 public boolean checkDataBase() {
+	File DB_FULL_PATH =currentContext.getDatabasePath("gamesManager.db");
+     String outFileName =DB_FULL_PATH.getPath() ;
     SQLiteDatabase checkDB = null;
     try {
-        checkDB = SQLiteDatabase.openDatabase(DB_FULL_PATH, null,
+        checkDB = SQLiteDatabase.openDatabase(outFileName, null,
                 SQLiteDatabase.OPEN_READONLY);
         checkDB.close();
     } catch (SQLiteException e) {

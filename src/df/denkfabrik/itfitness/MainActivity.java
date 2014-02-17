@@ -40,13 +40,13 @@ import static df.denkfabrik.itfitness.CommonUtilities.DISPLAY_MESSAGE_ACTION;
 import static df.denkfabrik.itfitness.CommonUtilities.EXTRA_MESSAGE;
 import static df.denkfabrik.itfitness.CommonUtilities.EXTRA_COUNT;
 import static df.denkfabrik.itfitness.GCMIntentService.count;
-import com.testflightapp.lib.TestFlight;
+/*import com.testflightapp.lib.TestFlight;*/
 
 public class MainActivity extends Activity {
 	private static final String TAG_SURVEYS = "questions";
 	private static final String TAG_TOPIC = "topic";
 	private static final String TAG_ID = "surveytitle";
-	private static final String DB_FULL_PATH = "/data/data/df.denkfabrik.itfitness/databases/gamesManager.db";
+	private File DB_FULL_PATH;
 	private static final String SENDER_ID="590463838489";
 	
 	
@@ -77,13 +77,15 @@ public class MainActivity extends Activity {
 		JSONObject topicData=null;
 		lblMessage = (TextView) findViewById(R.id.updateCounter);
 		lblMessageWrap= (LinearLayout) findViewById(R.id.updateCounterWrapper);
-		TestFlight.takeOff(getApplication(), "6a41ad1d-91bd-4174-9d18-f9e0f1cd3478");
+		/*TestFlight.takeOff(getApplication(), "6a41ad1d-91bd-4174-9d18-f9e0f1cd3478");*/
 		
         registerReceiver(mHandleMessageReceiver, new IntentFilter(DISPLAY_MESSAGE_ACTION));
         
- 
+        DB_FULL_PATH =getBaseContext().getDatabasePath("gamesManager.db");
+        String outFileName =DB_FULL_PATH.getPath() ;
+        
 		
-		File dbFile = new File(DB_FULL_PATH);
+		File dbFile = new File(outFileName);
 	    
 	    	
 	    	
@@ -172,7 +174,7 @@ public class MainActivity extends Activity {
 	    				db.addAnswersBulk(answerInsertString);
 	    				
 	    			}catch(JSONException e){
-	    				Log.d("Shite"," "+e);
+	    				
 	    			}
 	    			
 	    			

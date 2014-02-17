@@ -30,9 +30,9 @@ public class LevelFragment extends Fragment {
 	    return view;
 	  }
 
-	public void setLevels(List<numberOfGames> numberOfGames, int topicid){
-		
-		
+	public void setLevels(List<numberOfGames> numberOfGames, int topicid, String topictitle){
+		BoldCustomTextView levelsTopic=(BoldCustomTextView)getView().findViewById(R.id.levelsTopic);
+		levelsTopic.setText(topictitle);
 		LinearLayout ll = (LinearLayout)getView().findViewById(R.id.levels);
 	 	ll.removeAllViews();
 		
@@ -45,13 +45,13 @@ public class LevelFragment extends Fragment {
 			 	 
 				 LayoutParams lp = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
 				 ll.addView(myButton, lp);
-				 myButton.setOnClickListener(getOnClickStartLevel(myButton, level, topicid, numberOfGame.getGameid()));
+				 myButton.setOnClickListener(getOnClickStartLevel(myButton, level, topicid, numberOfGame.getGameid(),topictitle));
 				 level++;  		
     	}
 	}
 	
 	
-	View.OnClickListener getOnClickStartLevel(final Button button, final int level, final int topicid, final int gameid)  {
+	View.OnClickListener getOnClickStartLevel(final Button button, final int level, final int topicid, final int gameid, final String topictitle)  {
 		  return new View.OnClickListener() {
 	        public void onClick(View v) {
 	        	SharedPreferences settings = context.getSharedPreferences(PREFS_NAME, 0);
@@ -62,7 +62,8 @@ public class LevelFragment extends Fragment {
 	        	Intent intent = new Intent(context, RunGame.class);
 	        	intent.putExtra("topic",topicid);
 	        	intent.putExtra("level",level);
-	        	intent.putExtra("gameid",gameid);	        	
+	        	intent.putExtra("gameid",gameid);	
+	        	intent.putExtra("topictitle", topictitle);
 	            startActivity(intent);   
 	        }
 	    };

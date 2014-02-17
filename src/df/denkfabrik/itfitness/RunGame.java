@@ -42,6 +42,7 @@ public class RunGame extends Activity{
 	private int CURRENT_TOPIC=0;
 	private int LAST_QUESTION_ID=0;
 	private int GAMEID=0;
+	private String TOPICTITLE;
 	private long lastInsertedSession=0;
 	private int MAX_QUESTIONS=0;
 	public static final String PREFS_NAME = "MyPrefsFile";/*I love copy and paste*/
@@ -67,6 +68,7 @@ public class RunGame extends Activity{
 		CURRENT_LEVEL=extras.getInt("level");
 		CURRENT_TOPIC=extras.getInt("topic");
 		GAMEID=extras.getInt("gameid");
+		TOPICTITLE=extras.getString("topictitle");
 		
 		MySQLiteHelper db=new MySQLiteHelper(this);
 		
@@ -96,7 +98,7 @@ public class RunGame extends Activity{
 	      editor.putInt("currentLevel", CURRENT_LEVEL);
 	      editor.putInt("gameid", GAMEID);
 	      editor.putInt("currentTopic", CURRENT_TOPIC);
-	      
+	      editor.putString("topictitle", TOPICTITLE);
 	      editor.putLong("session", lastInsertedSession);
 
 	      // Commit the edits!
@@ -114,6 +116,7 @@ public class RunGame extends Activity{
 	      editor.putInt("gameid", GAMEID);
 	      editor.putInt("currentTopic", CURRENT_TOPIC);
 	      editor.putLong("session", lastInsertedSession);
+	      editor.putString("topictitle", TOPICTITLE);
 
 	      // Commit the edits!
 	      editor.commit();
@@ -130,6 +133,7 @@ public class RunGame extends Activity{
 	    CURRENT_QUESTION = settings.getInt("currentQuestion", CURRENT_QUESTION);
 	    CURRENT_LEVEL=settings.getInt("currentLevel", CURRENT_LEVEL);
 	    GAMEID=settings.getInt("gameid", GAMEID);
+	    TOPICTITLE=settings.getString("topictitle", TOPICTITLE);
 	    CURRENT_TOPIC=settings.getInt("currentTopic", CURRENT_TOPIC);
 	    lastInsertedSession=settings.getLong("session", lastInsertedSession);
 	    
@@ -240,7 +244,7 @@ public class RunGame extends Activity{
 		
 				
 		TextView tv1=(TextView)findViewById(R.id.qtitle);		
-		tv1.setText("Frage: "+CURRENT_QUESTION);
+		tv1.setText(TOPICTITLE+"\r\nLevel: "+CURRENT_LEVEL+"\r\nFrage: "+CURRENT_QUESTION);
 		
 		TextView tv2=(TextView)findViewById(R.id.qtext);
 		
