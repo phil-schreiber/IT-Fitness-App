@@ -25,7 +25,7 @@
     android:gravity="top"    
     android:background="#d4d4d4" 
     android:orientation="horizontal">
-    <df.denkfabrik.itfitness.CustomButtonView
+    <df.idgbusiness.itfitness.CustomButtonView
         android:layout_width="90dp"
 	android:layout_height="35dp"
 	android:layout_marginLeft="10dp"
@@ -36,7 +36,7 @@
 	
 	/>
     
-    <df.denkfabrik.itfitness.BoldCustomTextView        
+    <df.idgbusiness.itfitness.BoldCustomTextView        
         android:id="@+id/resultTitle"        
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
         android:gravity="center_vertical" 
 		android:orientation="vertical"
     >
-    <df.denkfabrik.itfitness.BoldCustomTextView
+    <df.idgbusiness.itfitness.BoldCustomTextView
     	android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -71,7 +71,7 @@
         android:padding="15dp"
         android:layout_marginTop="10dp"
     	      />
-    <df.denkfabrik.itfitness.NativelyCustomTextView
+    <df.idgbusiness.itfitness.NativelyCustomTextView
     	android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -85,7 +85,7 @@
         android:layout_marginRight="10dp"
     	    />    	        	    
     	 
-    	<df.denkfabrik.itfitness.BoldCustomTextView
+    	<df.idgbusiness.itfitness.BoldCustomTextView
     	android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -100,7 +100,7 @@
         android:layout_marginRight="10dp"
                 
     	    />
-    <df.denkfabrik.itfitness.NativelyCustomTextView
+    <df.idgbusiness.itfitness.NativelyCustomTextView
     	android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -113,7 +113,7 @@
         android:layout_marginLeft="10dp"        
         android:layout_marginRight="10dp"
         />
-    		<df.denkfabrik.itfitness.BoldCustomTextView
+    		<df.idgbusiness.itfitness.BoldCustomTextView
     	android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -132,7 +132,7 @@
     android:layout_height="wrap_content"
     android:gravity="right"
     android:orientation="vertical">
-    	 <df.denkfabrik.itfitness.CustomButtonView
+    	 <df.idgbusiness.itfitness.CustomButtonView
         android:id="@+id/share"
         android:onClick="shareIt"
         android:text="@string/share"
@@ -145,7 +145,7 @@
         android:background="@drawable/triangle"        
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"  />
-    	  <df.denkfabrik.itfitness.CustomButtonView
+    	  <df.idgbusiness.itfitness.CustomButtonView
         android:id="@+id/home"
         android:onClick="allNew"
         android:text="@string/home"

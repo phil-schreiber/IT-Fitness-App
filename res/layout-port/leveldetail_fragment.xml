@@ -8,5 +8,5 @@
         android:id="@+id/detailFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        class="df.denkfabrik.itfitness.LevelDetail" />
+        class="df.idgbusiness.itfitness.LevelDetail" />
 </LinearLayout> 

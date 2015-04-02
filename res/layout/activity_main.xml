@@ -8,7 +8,7 @@
     android:background="#ffffff" >
    
 
-    <df.denkfabrik.itfitness.BoldCustomTextView
+    <df.idgbusiness.itfitness.BoldCustomTextView
 	    android:layout_width="fill_parent"
     android:layout_height="wrap_content"    
     android:text="@string/start_title"
@@ -20,7 +20,7 @@
     />
 	    
 	
-	<df.denkfabrik.itfitness.NativelyCustomTextView
+	<df.idgbusiness.itfitness.NativelyCustomTextView
 	    android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:id="@+id/introText"
@@ -50,7 +50,7 @@
             android:layout_width="match_parent"
             >
             
-    <df.denkfabrik.itfitness.BoldButtonView
+    <df.idgbusiness.itfitness.BoldButtonView
         android:id="@+id/Button01"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"               
@@ -76,7 +76,7 @@
                     android:layout_marginTop="2dp"
                     >
 
-                <df.denkfabrik.itfitness.NativelyCustomTextView
+                <df.idgbusiness.itfitness.NativelyCustomTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/updateCounter" 
@@ -90,7 +90,7 @@
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             >
-    <df.denkfabrik.itfitness.CustomButtonView
+    <df.idgbusiness.itfitness.CustomButtonView
         android:id="@+id/Button02"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"               
@@ -109,7 +109,7 @@
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             >
-    <df.denkfabrik.itfitness.CustomButtonView
+    <df.idgbusiness.itfitness.CustomButtonView
         android:id="@+id/Button03"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"               
@@ -129,7 +129,7 @@
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             >
-    <df.denkfabrik.itfitness.CustomButtonView
+    <df.idgbusiness.itfitness.CustomButtonView
         android:id="@+id/Button04"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"               
